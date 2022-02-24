@@ -1,4 +1,4 @@
-# iOS Open-Source Telematics App with Firebase© integration - updated
+# iOS Open-Source Telematics App with Firebase© integration - updated v2
 
 ![](https://github.com/Mobile-Telematics/TelematicsAppFirebase-iOS/raw/master/img_readme/mainlogo.jpg)
 
