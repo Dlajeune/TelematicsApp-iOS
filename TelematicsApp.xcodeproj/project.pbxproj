@@ -2399,7 +2399,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "DATA MOTION PTE. LTD";
+				ORGANIZATIONNAME = "DEL Telematics";
 				TargetAttributes = {
 					173973281D620CDB00C9447E = {
 						CreatedOnToolsVersion = 7.3;
