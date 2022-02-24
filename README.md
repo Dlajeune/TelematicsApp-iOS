@@ -4,7 +4,7 @@
 
 ![](https://img.shields.io/cocoapods/v/RaxelPulse) ![](https://img.shields.io/badge/release-blueviolet) ![](https://img.shields.io/badge/free-release) ![](https://img.shields.io/badge/AppStore-ready-important)
 
-## Description
+## Description and details
 
 This Telematics App is developed by Damoov and is distributed free of charge. This app can be used to create your own telematics app for iOS in few steps.
 
