@@ -108,7 +108,7 @@
     [self.avatarImg addGestureRecognizer:bigAvaTap];
     
     self.verifiedGreenLabel.attributedText = [self createVerifedLabelImgBefore:localizeString(@" Verified Account")];
-    self.verifiedGreenLabel.textColor = [Color officialGreenColor];
+    self.verifiedGreenLabel.textColor = [Color OfficialDELBlueColor];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showCompletePopupNow) name:@"showCompletePopupNow" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateProfileTableDataWait) name:@"updateProfileTableDataWait" object:nil];
@@ -165,7 +165,7 @@
     
     if (![userEmail isEqualToString:@""] && userEmail != nil && ![userPhone isEqualToString:@""] && userPhone != nil) {
         self.verifiedGreenLabel.attributedText = [self createVerifedLabelImgBefore:localizeString(@" Verified Account")];
-        self.verifiedGreenLabel.textColor = [Color officialGreenColor];
+        self.verifiedGreenLabel.textColor = [Color OfficialDELBlueColor];
     } else {
         self.verifiedGreenLabel.attributedText = [self createNotVerifedLabelImgBefore:localizeString(@" Verified Account")];
         self.verifiedGreenLabel.textColor = [Color lightGrayColor];

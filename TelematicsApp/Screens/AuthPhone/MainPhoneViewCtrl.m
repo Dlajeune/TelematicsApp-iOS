@@ -57,7 +57,7 @@
     self.phoneField.placeholder = localizeString(@"enter phone");
     
     self.usePhoneLbl.text = localizeString(@"Use your phone number");
-    self.usePhoneLbl.textColor = [Color officialGreenColor];
+    self.usePhoneLbl.textColor = [Color OfficialDELBlueColor];
     self.usePhoneLbl.font = [Font semibold22];
     
     [self.countryButton.layer setMasksToBounds:YES];
@@ -174,7 +174,7 @@
         //UPDATE ERROR LABEL AFTER 4 SECONDS
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(DELAY_IMMEDIATELY_4_SEC * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             self.usePhoneLbl.text = localizeString(@"Use your phone number");
-            self.usePhoneLbl.textColor = [Color officialGreenColor];
+            self.usePhoneLbl.textColor = [Color OfficialDELBlueColor];
             self.usePhoneLbl.font = [Font semibold22];
         });
         return;
@@ -212,7 +212,7 @@
             //UPDATE ERROR LABEL AFTER 4 SECONDS
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(DELAY_IMMEDIATELY_4_SEC * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 self.usePhoneLbl.text = localizeString(@"Use your phone number");
-                self.usePhoneLbl.textColor = [Color officialGreenColor];
+                self.usePhoneLbl.textColor = [Color OfficialDELBlueColor];
                 self.usePhoneLbl.font = [Font semibold22];
             });
             return;
@@ -274,7 +274,7 @@
     NSString *phoneUsageText = [NSString stringWithFormat:@" %@", phoneText];
     NSMutableAttributedString *textAfterIcon = [[NSMutableAttributedString alloc] initWithString:phoneUsageText];
     [textAfterIcon addAttribute:NSFontAttributeName value:[Font medium13] range:NSMakeRange(0, [phoneUsageText length])];
-    [textAfterIcon addAttribute:NSForegroundColorAttributeName value:[Color officialGreenColor] range:NSMakeRange(0, [phoneUsageText length])];
+    [textAfterIcon addAttribute:NSForegroundColorAttributeName value:[Color OfficialDELBlueColor] range:NSMakeRange(0, [phoneUsageText length])];
     [completeText appendAttributedString:textAfterIcon];
     return completeText;
 }

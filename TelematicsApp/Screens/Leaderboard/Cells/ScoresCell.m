@@ -46,7 +46,7 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    _progressBarOBDView.barFillColor = [Color officialGreenColor];
+    _progressBarOBDView.barFillColor = [Color OfficialDELBlueColor];
     [_progressBarOBDView setBarBackgroundColor:[Color lightSeparatorColor]];
 }
 

@@ -324,7 +324,7 @@
         URL = [NSURL URLWithString:[NSString stringWithFormat:@"%@", [Configurator sharedInstance].telematicsSettingsOS12]];
     SFSafariViewController *svc = [[SFSafariViewController alloc] initWithURL:URL];
     svc.delegate = self;
-    svc.preferredControlTintColor = [Color officialGreenColor];
+    svc.preferredControlTintColor = [Color OfficialDELBlueColor];
     [self presentViewController:svc animated:YES completion:nil];
 }
 

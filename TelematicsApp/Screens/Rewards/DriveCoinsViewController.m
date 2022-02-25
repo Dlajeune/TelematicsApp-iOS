@@ -789,11 +789,11 @@
         _coinsChartView.horizontalGridStep = 5;
     }
     
-    _coinsChartView.fillColor = [[Color officialGreenColor] colorWithAlphaComponent:0.1];
+    _coinsChartView.fillColor = [[Color OfficialDELBlueColor] colorWithAlphaComponent:0.1];
     _coinsChartView.displayDataPoint = YES;
     _coinsChartView.lineWidth = 3;
-    _coinsChartView.dataPointColor = [Color officialGreenColor];
-    _coinsChartView.dataPointBackgroundColor = [Color officialGreenColor];
+    _coinsChartView.dataPointColor = [Color OfficialDELBlueColor];
+    _coinsChartView.dataPointBackgroundColor = [Color OfficialDELBlueColor];
     _coinsChartView.dataPointRadius = 0;
     _coinsChartView.color = [_coinsChartView.dataPointColor colorWithAlphaComponent:1.0];
     _coinsChartView.valueLabelPosition = ValueLabelLeftMirrored;
@@ -865,7 +865,7 @@
         
         NSRange currentRangeTotalPoints = [currentStreakString rangeOfString:currentStreakCounter];
         UIFont *currentFontTotalPoints = [Font heavy26];
-        [currentStreakCompleteText addAttribute:NSForegroundColorAttributeName value:[Color officialGreenColor] range:currentRangeTotalPoints];
+        [currentStreakCompleteText addAttribute:NSForegroundColorAttributeName value:[Color OfficialDELBlueColor] range:currentRangeTotalPoints];
         [currentStreakCompleteText addAttribute:NSFontAttributeName value:currentFontTotalPoints range:currentRangeTotalPoints];
         
         NSRange currentRangeTripsAdd = [currentStreakString rangeOfString:currentStreakItem];
@@ -970,7 +970,7 @@
         
         NSRange currentRangeTotalPoints = [currentStreakString rangeOfString:currentStreakCounter];
         UIFont *currentFontTotalPoints = [Font heavy26];
-        [currentStreakCompleteText addAttribute:NSForegroundColorAttributeName value:[Color officialGreenColor] range:currentRangeTotalPoints];
+        [currentStreakCompleteText addAttribute:NSForegroundColorAttributeName value:[Color OfficialDELBlueColor] range:currentRangeTotalPoints];
         [currentStreakCompleteText addAttribute:NSFontAttributeName value:currentFontTotalPoints range:currentRangeTotalPoints];
         
         NSRange currentRangeTripsAdd = [currentStreakString rangeOfString:currentStreakItem];
@@ -1075,7 +1075,7 @@
         
         NSRange currentRangeTotalPoints = [currentStreakString rangeOfString:currentStreakCounter];
         UIFont *currentFontTotalPoints = [Font heavy26];
-        [currentStreakCompleteText addAttribute:NSForegroundColorAttributeName value:[Color officialGreenColor] range:currentRangeTotalPoints];
+        [currentStreakCompleteText addAttribute:NSForegroundColorAttributeName value:[Color OfficialDELBlueColor] range:currentRangeTotalPoints];
         [currentStreakCompleteText addAttribute:NSFontAttributeName value:currentFontTotalPoints range:currentRangeTotalPoints];
         
         NSRange currentRangeTripsAdd = [currentStreakString rangeOfString:currentStreakItem];
@@ -1180,7 +1180,7 @@
         
         NSRange currentRangeTotalPoints = [currentStreakString rangeOfString:currentStreakCounter];
         UIFont *currentFontTotalPoints = [Font heavy26];
-        [currentStreakCompleteText addAttribute:NSForegroundColorAttributeName value:[Color officialGreenColor] range:currentRangeTotalPoints];
+        [currentStreakCompleteText addAttribute:NSForegroundColorAttributeName value:[Color OfficialDELBlueColor] range:currentRangeTotalPoints];
         [currentStreakCompleteText addAttribute:NSFontAttributeName value:currentFontTotalPoints range:currentRangeTotalPoints];
         
         NSRange currentRangeTripsAdd = [currentStreakString rangeOfString:currentStreakItem];
@@ -1285,7 +1285,7 @@
         
         NSRange currentRangeTotalPoints = [currentStreakString rangeOfString:currentStreakCounter];
         UIFont *currentFontTotalPoints = [Font heavy26];
-        [currentStreakCompleteText addAttribute:NSForegroundColorAttributeName value:[Color officialGreenColor] range:currentRangeTotalPoints];
+        [currentStreakCompleteText addAttribute:NSForegroundColorAttributeName value:[Color OfficialDELBlueColor] range:currentRangeTotalPoints];
         [currentStreakCompleteText addAttribute:NSFontAttributeName value:currentFontTotalPoints range:currentRangeTotalPoints];
         
         NSRange currentRangeTripsAdd = [currentStreakString rangeOfString:currentStreakItem];

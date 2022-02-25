@@ -50,7 +50,7 @@
     self.mainLogoImg.image = [UIImage imageNamed:[Configurator sharedInstance].mainLogoColor];
     
     self.welcomeLbl.text = localizeString(@"Sign In\n");
-    self.welcomeLbl.textColor = [Color officialGreenColor];
+    self.welcomeLbl.textColor = [Color OfficialDELBlueColor];
     self.welcomeLbl.font = [Font semibold22];
     
     [self.emailField makeFormFieldZero];
@@ -77,7 +77,7 @@
     
     [self.joinBtn setTintColor:[Color officialWhiteColor]];
     [self.joinBtn setTitleColor:[Color officialWhiteColor] forState:UIControlStateNormal];
-    [self.joinBtn setBackgroundColor:[Color officialGreenColor]];
+    [self.joinBtn setBackgroundColor:[Color OfficialDELBlueColor]];
     [self.joinBtn.layer setMasksToBounds:YES];
     [self.joinBtn.layer setCornerRadius:20.0f];
     NSMutableAttributedString *loginText = [[NSMutableAttributedString alloc] initWithString:localizeString(@"SIGN IN")];
@@ -144,7 +144,7 @@
         //UPDATE ERROR LABEL AFTER 4 SECONDS
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(DELAY_IMMEDIATELY_4_SEC * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             self.welcomeLbl.text = localizeString(@"Sign In\n");
-            self.welcomeLbl.textColor = [Color officialGreenColor];
+            self.welcomeLbl.textColor = [Color OfficialDELBlueColor];
             self.welcomeLbl.font = [Font semibold22];
         });
         return;
@@ -158,7 +158,7 @@
         
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(DELAY_IMMEDIATELY_4_SEC * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             self.welcomeLbl.text = localizeString(@"Sign In\n");
-            self.welcomeLbl.textColor = [Color officialGreenColor];
+            self.welcomeLbl.textColor = [Color OfficialDELBlueColor];
             self.welcomeLbl.font = [Font semibold22];
         });
         return;
@@ -461,7 +461,7 @@
         [self.signInBtn setAttributedTitle:signInText forState:UIControlStateNormal];
         
         self.welcomeLbl.text = localizeString(@"Sign Up\n");
-        self.welcomeLbl.textColor = [Color officialGreenColor];
+        self.welcomeLbl.textColor = [Color OfficialDELBlueColor];
         self.welcomeLbl.font = [Font semibold22];
         
         self.passwordField.placeholder = localizeString(@"create password");
@@ -474,10 +474,10 @@
         
         [self.joinBtn setTintColor:[Color officialWhiteColor]];
         [self.joinBtn setTitleColor:[Color officialWhiteColor] forState:UIControlStateNormal];
-        [self.joinBtn setBackgroundColor:[Color officialGreenColor]];
+        [self.joinBtn setBackgroundColor:[Color OfficialDELBlueColor]];
         [self.joinBtn.layer setMasksToBounds:YES];
         [self.joinBtn.layer setCornerRadius:20.0f];
-        [self.joinBtn.layer setBorderColor:[[Color officialGreenColor] CGColor]];
+        [self.joinBtn.layer setBorderColor:[[Color OfficialDELBlueColor] CGColor]];
         [self.joinBtn.layer setBorderWidth:0.4];
         NSMutableAttributedString *loginText = [[NSMutableAttributedString alloc] initWithString:localizeString(@"SIGN IN")];
         [loginText addAttribute:NSFontAttributeName value:[Font medium13] range:NSMakeRange(0, [loginText length])];
@@ -499,7 +499,7 @@
         [self.signInBtn setAttributedTitle:signInText forState:UIControlStateNormal];
         
         self.welcomeLbl.text = localizeString(@"Sign In\n");
-        self.welcomeLbl.textColor = [Color officialGreenColor];
+        self.welcomeLbl.textColor = [Color OfficialDELBlueColor];
         self.welcomeLbl.font = [Font semibold22];
         
         self.passwordField.placeholder = localizeString(@"enter password");
@@ -559,7 +559,7 @@
     NSString *phoneUsageText = [NSString stringWithFormat:@" %@", phoneText];
     NSMutableAttributedString *textAfterIcon = [[NSMutableAttributedString alloc] initWithString:phoneUsageText];
     [textAfterIcon addAttribute:NSFontAttributeName value:[Font medium13] range:NSMakeRange(0, [phoneUsageText length])];
-    [textAfterIcon addAttribute:NSForegroundColorAttributeName value:[Color officialGreenColor] range:NSMakeRange(0, [phoneUsageText length])];
+    [textAfterIcon addAttribute:NSForegroundColorAttributeName value:[Color OfficialDELBlueColor] range:NSMakeRange(0, [phoneUsageText length])];
     [completeText appendAttributedString:textAfterIcon];
     return completeText;
 }

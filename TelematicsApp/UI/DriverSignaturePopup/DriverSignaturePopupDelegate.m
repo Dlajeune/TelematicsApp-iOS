@@ -189,8 +189,8 @@
     
     self.customView.submitBtn.layer.cornerRadius = self.buttonRadius;
     self.customView.submitBtn.layer.borderWidth = 1.0;
-    self.customView.submitBtn.layer.borderColor = [Color officialGreenColor].CGColor;
-    self.customView.submitBtn.backgroundColor = [Color officialGreenColor];
+    self.customView.submitBtn.layer.borderColor = [Color OfficialDELBlueColor].CGColor;
+    self.customView.submitBtn.backgroundColor = [Color OfficialDELBlueColor];
     [self.customView.submitBtn setTitle:localizeString(@"CONFIRM") forState:UIControlStateNormal];
     [self.customView.submitBtn addTarget:self action:@selector(submitDriverSignatureButtonAction) forControlEvents:UIControlEventTouchUpInside];
     

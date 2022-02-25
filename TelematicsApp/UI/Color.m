@@ -151,6 +151,12 @@
 + (UIColor*)whiteSpinnerColor {
     return RGB3A(255, 255, 255, 0.9);
 }
++ (UIColor*)OfficialDELBlueColor {
+    return RGB3(96, 150, 186);
+}
 
++ (UIColor*)OfficialDELLightBlueColor {
+    return RGB3A(96, 150, 186, 0.2);
+}
 
 @end

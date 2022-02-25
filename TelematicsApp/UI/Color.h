@@ -61,5 +61,7 @@ alpha:1.0]
 + (UIColor*)curveGreenColor;
 + (UIColor*)blackColor;
 + (UIColor*)whiteSpinnerColor;
++ (UIColor*)OfficialDELBlueColor;
++ (UIColor*)OfficialDELLightBlueColor;
 
 @end

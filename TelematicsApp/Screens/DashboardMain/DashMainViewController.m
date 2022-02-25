@@ -1042,11 +1042,11 @@
         _chartWithDates.horizontalGridStep = 5;
     }
     
-    _chartWithDates.fillColor = [[Color officialGreenColor] colorWithAlphaComponent:0.1];
+    _chartWithDates.fillColor = [[Color OfficialDELBlueColor] colorWithAlphaComponent:0.1];
     _chartWithDates.displayDataPoint = YES;
     _chartWithDates.lineWidth = 3;
-    _chartWithDates.dataPointColor = [Color officialGreenColor];
-    _chartWithDates.dataPointBackgroundColor = [Color officialGreenColor];
+    _chartWithDates.dataPointColor = [Color OfficialDELBlueColor];
+    _chartWithDates.dataPointBackgroundColor = [Color OfficialDELBlueColor];
     _chartWithDates.dataPointRadius = 0;
     _chartWithDates.color = [_chartWithDates.dataPointColor colorWithAlphaComponent:1.0];
     _chartWithDates.valueLabelPosition = ValueLabelLeftMirrored;
@@ -3716,7 +3716,7 @@
         URL = [NSURL URLWithString:[NSString stringWithFormat:@"%@", [Configurator sharedInstance].telematicsSettingsOS12]];
     SFSafariViewController *svc = [[SFSafariViewController alloc] initWithURL:URL];
     svc.delegate = self;
-    svc.preferredControlTintColor = [Color officialGreenColor];
+    svc.preferredControlTintColor = [Color OfficialDELBlueColor];
     [self presentViewController:svc animated:YES completion:nil];
 }
 
