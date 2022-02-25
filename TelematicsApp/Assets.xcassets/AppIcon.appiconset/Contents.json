@@ -1,45 +1,49 @@
 {
   "images" : [
     {
+      "filename" : "DELimit Van 2000 40.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "DELimit Van 2000 60.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
+      "filename" : "DELimit Van 2000 58.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
+      "filename" : "DELimit Van 2000 87.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
-      "filename" : "Icon-Small-40@2x.jpg",
+      "filename" : "DELimit Van 2000 80.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "Icon-Small-40@3x.jpg",
+      "filename" : "DELimit Van 2000 120-1.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
-      "filename" : "Icon-60@2x.jpg",
+      "filename" : "DELimit Van 2000 120.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
-      "filename" : "Icon-60@3x.jpg",
+      "filename" : "DELimit Van 2000 180.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -65,25 +69,21 @@
       "size" : "29x29"
     },
     {
-      "filename" : "Icon-Small-40@1x.jpg",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "40x40"
     },
     {
-      "filename" : "Icon-Small-40@2x-1.jpg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "Icon-76@1x.jpg",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "76x76"
     },
     {
-      "filename" : "Icon-76@2x.jpg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
