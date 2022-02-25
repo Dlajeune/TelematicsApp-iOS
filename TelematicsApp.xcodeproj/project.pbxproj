@@ -381,6 +381,8 @@
 		17F88B9F1D90407F001164F0 /* DashboardResultResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 0; lastKnownFileType = sourcecode.c.h; path = DashboardResultResponse.h; sourceTree = "<group>"; };
 		17F88BA01D90407F001164F0 /* DashboardResultResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardResultResponse.m; sourceTree = "<group>"; };
 		17F88BA81D904174001164F0 /* DashboardResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardResponse.m; sourceTree = "<group>"; };
+		38CC4EF827C92D1A00765ED7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		38CC4EF927C92D3000765ED7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		738805625E1C2C320EF271EF /* Pods-TelematicsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelematicsApp.debug.xcconfig"; path = "Target Support Files/Pods-TelematicsApp/Pods-TelematicsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		8E9CA14A22895C20EAF56651 /* Pods-TelematicsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelematicsApp.release.xcconfig"; path = "Target Support Files/Pods-TelematicsApp/Pods-TelematicsApp.release.xcconfig"; sourceTree = "<group>"; };
 		B1FC27917FCF444ABC51B3EB /* Pods_TelematicsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelematicsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2429,6 +2431,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				es,
 			);
 			mainGroup = 173973201D620CDB00C9447E;
 			productRefGroup = 1739732A1D620CDB00C9447E /* Products */;
@@ -2917,6 +2921,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				E9841C1623C3419000E25344 /* en */,
+				38CC4EF827C92D1A00765ED7 /* fr */,
+				38CC4EF927C92D3000765ED7 /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3067,7 +3073,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.deltelematics.modeldriver;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deltelematics.delimitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3105,7 +3111,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.deltelematics.modeldriver;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deltelematics.delimitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
