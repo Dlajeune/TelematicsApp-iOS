@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1BT-R1-BQL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1BT-R1-BQL">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -27,7 +27,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="200" verticalHuggingPriority="200" verticalCompressionResistancePriority="700" image="app_logo_blurMask" translatesAutoresizingMaskIntoConstraints="NO" id="N1W-nY-Khg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="200" verticalHuggingPriority="200" verticalCompressionResistancePriority="700" image="fast" translatesAutoresizingMaskIntoConstraints="NO" id="N1W-nY-Khg">
                                 <rect key="frame" x="0.0" y="0.0" width="512" height="696"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="512" id="ilG-hj-Pho"/>
@@ -208,7 +208,7 @@ Sign Up</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="200" verticalHuggingPriority="200" verticalCompressionResistancePriority="700" image="app_logo_blurMask" translatesAutoresizingMaskIntoConstraints="NO" id="1nC-CC-FdL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="200" verticalHuggingPriority="200" verticalCompressionResistancePriority="700" image="fast" translatesAutoresizingMaskIntoConstraints="NO" id="1nC-CC-FdL">
                                 <rect key="frame" x="0.0" y="0.0" width="512" height="696"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="512" id="F7f-jw-UGT"/>
@@ -672,8 +672,8 @@ Sign Up</string>
         </scene>
     </scenes>
     <resources>
-        <image name="app_logo_blurMask" width="554" height="523.66668701171875"/>
-        <image name="app_logo_colorTelematicsApp" width="375" height="512"/>
+        <image name="app_logo_colorTelematicsApp" width="512" height="512"/>
+        <image name="fast" width="512" height="512"/>
         <image name="no_avatar" width="75.666664123535156" height="75.666664123535156"/>
         <image name="zigzag" width="606" height="147.5"/>
         <systemColor name="groupTableViewBackgroundColor">
