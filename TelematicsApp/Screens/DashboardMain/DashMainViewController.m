@@ -250,6 +250,12 @@
 @property (weak, nonatomic) IBOutlet UILabel *latestScoredTrip2Lbl;
 @property (weak, nonatomic) IBOutlet UILabel *EcoScoringlbl;
 @property (weak, nonatomic) IBOutlet UILabel *EcoScoring2lbl;
+@property (weak, nonatomic) IBOutlet UILabel *FuelDashlbl;
+@property (weak, nonatomic) IBOutlet UILabel *FuelDash2lbl;
+@property (weak, nonatomic) IBOutlet UILabel *TireDashlbl;
+@property (weak, nonatomic) IBOutlet UILabel *TireDash2lbl;
+@property (weak, nonatomic) IBOutlet UILabel *BrakesDashlbl;
+@property (weak, nonatomic) IBOutlet UILabel *BrakesDash2lbl;
 
 @end
 
@@ -2010,7 +2016,7 @@
 }
 
 - (void)setAccident {
-    self.tipAdviceLbl.text = @"Driving style impacts on your expenses on fuel, tires and brakes. Improve your driving style and reduce expenses.";
+    self.tipAdviceLbl.text = localizeString(@"tip 2");
 }
 
 
@@ -2057,7 +2063,7 @@
     self.demo_percentLbl.text = @"?";
     self.demo_percentLbl.font = [Font heavy44];
 
-    self.demo_tipAdviceLbl.text = @"Driving style impacts on your expenses on fuel, tires and brakes. Improve your driving style and reduce expenses.";
+    self.demo_tipAdviceLbl.text = localizeString(@"tip 2");
 }
 
 - (void)incrementProgressFuel:(NSTimer *)timer {
@@ -3538,6 +3544,17 @@
     self.descQuantityLbl.text = localizeString(@"quantity");
     self.descKmLbl.text = localizeString(@"km");
     self.descHoursLbl.text = localizeString(@"hours");
+    
+    self.FuelDashlbl.text = localizeString(@"Fuel");
+    self.FuelDash2lbl.text = localizeString(@"Fuel");
+    self.TireDashlbl.text = localizeString(@"Tire");
+    self.TireDash2lbl.text = localizeString(@"Tire");
+    self.BrakesDashlbl.text = localizeString(@"Brakes");
+    self.BrakesDash2lbl.text = localizeString(@"Brakes");
+    self.factor_costOfOwnershipLbl.text = localizeString(@"Cost of Ownership");
+    self.demo_factor_costOfOwnershipLbl.text = localizeString(@"Cost of Ownership");
+    self.tipLbl.text = localizeString(@"tip 1");
+    self.demo_tipLbl.text = localizeString(@"tip 1");
     
     if ([Configurator sharedInstance].needDistanceInMiles || [defaults_object(@"needDistanceInMiles") boolValue]) {
         self.descNeedKmLbl.text = localizeString(@"dash_miles");

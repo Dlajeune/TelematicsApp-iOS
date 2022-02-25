@@ -2296,9 +2296,15 @@
                     <navigationItem key="navigationItem" id="szZ-ik-Oqb"/>
                     <size key="freeformSize" width="375" height="1390"/>
                     <connections>
+                        <outlet property="BrakesDash2lbl" destination="2ZM-We-HJ9" id="O6H-Mh-Hu0"/>
+                        <outlet property="BrakesDashlbl" destination="2sh-TN-e8Z" id="fT6-bM-gh2"/>
                         <outlet property="DriveAsYoulbl" destination="WB7-r0-obV" id="Jeo-xg-jsX"/>
                         <outlet property="EcoScoring2lbl" destination="upT-QS-aO3" id="yuf-jM-c84"/>
                         <outlet property="EcoScoringlbl" destination="kjn-HW-xM0" id="fB9-pC-XOL"/>
+                        <outlet property="FuelDash2lbl" destination="bqr-qw-Pw5" id="hGu-eu-iti"/>
+                        <outlet property="FuelDashlbl" destination="4kZ-RH-4dO" id="wMD-G0-Rz2"/>
+                        <outlet property="TireDash2lbl" destination="CZe-cg-xbg" id="4tI-wG-ZzT"/>
+                        <outlet property="TireDashlbl" destination="W4n-ga-Hgp" id="hm4-IY-SfP"/>
                         <outlet property="activityTabBarView" destination="eWv-9J-TBL" id="8Mv-Bw-ZKx"/>
                         <outlet property="arrowPercentImg" destination="wfF-3e-uXZ" id="zb7-ZN-wY6"/>
                         <outlet property="arrowUpDownBtn" destination="fcv-yV-a8l" id="4bO-kG-UuO"/>

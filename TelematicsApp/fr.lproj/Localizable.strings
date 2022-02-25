@@ -162,7 +162,7 @@
 "ECO SCORING" = "SCORE ÉCO";
 "Fuel" = "Carburant";
 "Brakes" = "Freins";
-"Tires" = "Pneus";
+"Tire" = "Pneus";
 "Cost of Ownership" = "Coût de propriété";
 "tip 1" = "Faites 10 trajets avec un score 90 ou plus pour améliorer votre score de conduite !";
 "tip 2" = "Le style de conduite a un impact sur vos dépenses en carburant, pneus et freins.";
