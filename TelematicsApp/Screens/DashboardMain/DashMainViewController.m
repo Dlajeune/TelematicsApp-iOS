@@ -246,6 +246,10 @@
 @property (weak, nonatomic) IBOutlet UIView                     *mainDashboardViewSpecialWhiteEndREALView;
 @property (weak, nonatomic) IBOutlet UIView                     *mainDashboardViewSpecialWhiteEndDEMOView;
 @property (weak, nonatomic) IBOutlet UIView                     *mainDashboardViewSpecialGreyEndView;
+@property (weak, nonatomic) IBOutlet UILabel *DriveAsYoulbl;
+@property (weak, nonatomic) IBOutlet UILabel *latestScoredTrip2Lbl;
+@property (weak, nonatomic) IBOutlet UILabel *EcoScoringlbl;
+@property (weak, nonatomic) IBOutlet UILabel *EcoScoring2lbl;
 
 @end
 
@@ -3513,9 +3517,13 @@
 - (void)setupAdditionalTranslation {
     
     self.welcomeLbl.text = localizeString(@"Welcome aboard!");
+    self.demo_completeFirstTripLbl.text = localizeString(@"Complete your First Trip to Unlock Scoring");
     self.welcomeLbl.textColor = [Color officialMainAppColor];
     self.showLeaderLbl.text = localizeString(@"Rank");
     self.latestScoredTripLbl.text = localizeString(@"LATEST SCORED TRIP");
+    self.latestScoredTrip2Lbl.text = localizeString(@"LATEST SCORED TRIP");
+    self.EcoScoringlbl.text = localizeString(@"ECO SCORING");
+    self.EcoScoring2lbl.text = localizeString(@"ECO SCORING");
     
     self.descNeedTotalTripsLbl.text = localizeString(@"Total Trips");
     self.descNeedMileageLbl.text = localizeString(@"Mileage");
@@ -3537,7 +3545,8 @@
     }
     
     self.scoringAvailableIn.text = localizeString(@"Scoring is available in:");
-    self.driveAsYouDo.text = localizeString(@"Drive as you do normally");
+    //self.driveAsYouDo.text = localizeString(@"Drive as you do normally");
+    self.DriveAsYoulbl.text = localizeString(@"Drive as you do normally");
 }
 
 
@@ -3735,6 +3744,7 @@
     self.descTimeDrivenLbl.font = [Font medium10];
     
     self.demo_completeFirstTripLbl.font = [Font bold14];
+    
     self.trackingStartLbl.font = [Font bold12];
     
     self.tipLbl.font = [Font regular11];

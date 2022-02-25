@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Um4-ZB-tXd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Um4-ZB-tXd">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -2296,6 +2296,9 @@
                     <navigationItem key="navigationItem" id="szZ-ik-Oqb"/>
                     <size key="freeformSize" width="375" height="1390"/>
                     <connections>
+                        <outlet property="DriveAsYoulbl" destination="WB7-r0-obV" id="Jeo-xg-jsX"/>
+                        <outlet property="EcoScoring2lbl" destination="upT-QS-aO3" id="yuf-jM-c84"/>
+                        <outlet property="EcoScoringlbl" destination="kjn-HW-xM0" id="fB9-pC-XOL"/>
                         <outlet property="activityTabBarView" destination="eWv-9J-TBL" id="8Mv-Bw-ZKx"/>
                         <outlet property="arrowPercentImg" destination="wfF-3e-uXZ" id="zb7-ZN-wY6"/>
                         <outlet property="arrowUpDownBtn" destination="fcv-yV-a8l" id="4bO-kG-UuO"/>
@@ -2352,6 +2355,7 @@
                         <outlet property="jobsPauseBtn" destination="rSP-vY-wGh" id="C2G-SH-t10"/>
                         <outlet property="jobsStatusBtn" destination="Uui-pE-86h" id="7Rp-Xo-MC9"/>
                         <outlet property="kmLbl" destination="epW-IL-5OC" id="W1J-4S-dWc"/>
+                        <outlet property="latestScoredTrip2Lbl" destination="dqa-qO-Qxv" id="iUK-gk-x5U"/>
                         <outlet property="latestScoredTripLbl" destination="BBz-wP-EVc" id="98b-Fk-Lu6"/>
                         <outlet property="mainBackgroundView" destination="hmy-wA-Ams" id="yKR-c9-tja"/>
                         <outlet property="mainDashTriangleIcon" destination="6hD-im-iaT" id="1bF-P0-cGL"/>
@@ -2425,7 +2429,7 @@
         <image name="ic_fuel" width="128" height="128"/>
         <image name="ic_land" width="32" height="31"/>
         <image name="ic_tyres" width="128" height="128"/>
-        <image name="map_render" width="700" height="438"/>
+        <image name="map_render" width="5181.5" height="2791"/>
         <image name="no_avatar" width="75.666664123535156" height="75.666664123535156"/>
         <image name="plus" width="21" height="21"/>
         <image name="profile_back_clear" width="494" height="279"/>

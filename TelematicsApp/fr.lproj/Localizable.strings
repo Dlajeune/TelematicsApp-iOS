@@ -123,7 +123,7 @@
 "Welcome aboard!" = "Bienvenue à bord!";
 "Start" = "Début";
 "START\nTEST-DRIVE" = "DÉBUT\nESSAI ROUTIER";
-"dash_overall" = "Score global";
+"dash_overall" = "Score globale";
 "dash_acceleration" = "Score d'accélération";
 "dash_braking" = "Score de freinage";
 "dash_phone" = "Score du téléphone";
