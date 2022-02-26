@@ -36,6 +36,7 @@
 
 @property (nonatomic, strong) UIRefreshControl          *refreshController;
 @property (strong, nonatomic) TelematicsAppModel        *appModel;
+@property (weak, nonatomic) IBOutlet UIButton *reportClaimLblAfter;
 
 @end
 
@@ -44,6 +45,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [_reportClaimLblAfter setTitle:localizeString(@"Report a New Claim") forState:UIControlStateNormal];
+    self.noClaimsLbl.text = localizeString(@"You have no created claims yet");
     
     self.noClaimsLbl.hidden = YES;
     

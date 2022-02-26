@@ -51,6 +51,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.mainDescription.text = localizeString(@"Choose a mode depending on your goals.\nYou can switch this any time");
+    self.autoModeTitleLbl.text = localizeString(@"Automatic Tracking");
+    self.autoModeDescLbl.text = localizeString(@"All your trips will be recorded 24/7. You can manually turn it off in Settings");
+    self.deliveryTitleModeLbl.text = localizeString(@"On-Demand Tracking");
+    self.deliveryDescModeLbl.text = localizeString(@"Tracking works only when you are on duty");
+    self.disableTitleModeLbl.text = localizeString(@"Tracking Disabled");
+    self.disableDescModeLbl.text = localizeString(@"Tracking does not work at all");
+    
     self.appModel = [TelematicsAppModel MR_findFirstByAttribute:@"current_user" withValue:@1];
     _modeSelect = 0;
     

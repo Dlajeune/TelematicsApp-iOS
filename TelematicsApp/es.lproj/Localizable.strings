@@ -125,7 +125,24 @@
 "INITIAL MILEAGE" = "KILOMÉTRAGE ACTUEL";
 "PAINTING TYPE" = "TYPE DE PEINTURE";
 "SOLID" = "SOLIDE";
-
+"Report a New Claim" = "Signaler une réclamation";
+"You have no created claims yet" = "Aucune réclamation créé";
+"Tracking Mode" = "Modo de seguimiento";
+"Battery Saver" = "Ahorro de batería";
+"Select Tracking Mode" = "Su modo de seguimiento";
+"Choose a mode depending on your goals.\nYou can switch this any time" = "Elija un modo según sus objetivos.\nPuede cambiar esto en cualquier momento";
+"Automatic Tracking" = "Seguimiento automático";
+"All your trips will be recorded 24/7. You can manually turn it off in Settings" = "Todos tus viajes se grabarán las 24 horas, 7 días. Puedes desactivarlo manualmente en Ajustes";
+"On-Demand Tracking" = "Seguimiento bajo demanda";
+"Tracking works only when you are on duty" = "El seguimiento funciona solo cuando está de servicio";
+"Tracking Disabled" = "Seguimiento deshabilitado";
+"Tracking does not work at all" = "El seguimiento no funciona en absoluto";
+"PROCEED WITH DISABLED TRACKING MODE" = "EL MODO DE SEGUIMIENTO DESHABILITADO";
+"PROCEED WITH AUTOMATIC TRACKING MODE" = "EL MODO DE SEGUIMIENTO AUTOMÁTICO";
+"PROCEED WITH ON-DEMAND TRACKING MODE" = "EL MODO DE SEGUIMIENTO BAJO DEMANDA";
+"Disabled" = "Discapacitado";
+"Automatic" = "Automático";
+"On-Demand" = "Bajo demanda";
 
 /* dashboard */
 "Welcome aboard!" = "Bienvenido a bordo!";

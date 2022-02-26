@@ -100,6 +100,26 @@
 "PAINTING TYPE" = "TYPE OF PAINT";
 "SOLID" = "SOLID";
 "Keep driving!\nLeaderboard appears soon." = "Keep driving!\nLeaderboard appears soon.";
+"Report a New Claim" = "Signaler une réclamation";
+"You have no created claims yet" = "Aucune réclamation créé";
+"Tracking Mode" = "Tracking Mode";
+"Battery Saver" = "Battery Saver";
+"Select Tracking Mode" = "Select Tracking Mode";
+"Choose a mode depending on your goals.\nYou can switch this any time" = "Choose a mode depending on your goals.\nYou can switch this any time";
+"Automatic Tracking" = "Automatic Tracking";
+"All your trips will be recorded 24/7. You can manually turn it off in Settings" = "All your trips will be recorded 24/7. You can manually turn it off in Settings";
+"On-Demand Tracking" = "On-Demand Tracking";
+"Tracking works only when you are on duty" = "Tracking works only when you are on duty";
+"Tracking Disabled" = "Tracking Disabled";
+"Tracking does not work at all" = "Tracking does not work at all";
+"PROCEED WITH DISABLED TRACKING MODE" = "PROCEED WITH DISABLED TRACKING MODE";
+"PROCEED WITH AUTOMATIC TRACKING MODE" = "PROCEED WITH AUTOMATIC TRACKING MODE";
+"PROCEED WITH ON-DEMAND TRACKING MODE" = "PROCEED WITH ON-DEMAND TRACKING MODE";
+"Disabled" = "Disabled";
+"Automatic" = "Automatic";
+"On-Demand" = "On-Demand";
+
+
 
 /*Rewards*/
 "Acquired Coins" = "Acquired Coins";

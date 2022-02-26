@@ -124,6 +124,20 @@
 "INITIAL MILEAGE" = "KILOMÉTRAGE ACTUEL";
 "PAINTING TYPE" = "TYPE DE PEINTURE";
 "SOLID" = "SOLIDE";
+"Select Tracking Mode" = "Votre mode de suivi";
+"Choose a mode depending on your goals.\nYou can switch this any time" = "Choisissez un mode en fonction de vos objectifs.\nVous pouvez le changer à tout moment";
+"Automatic Tracking" = "Suivi automatique";
+"All your trips will be recorded 24/7. You can manually turn it off in Settings" = "Tous vos trajets seront enregistrés 24h et 7j. Vous pouvez le désactiver manuellement dans les paramètres";
+"On-Demand Tracking" = "Suivi à la demande";
+"Tracking works only when you are on duty" = "Fonctionne que lorsque vous êtes en service";
+"Tracking Disabled" = "Suivi désactivé";
+"Tracking does not work at all" = "Le suivi ne fonctionne pas du tout";
+"PROCEED WITH DISABLED TRACKING MODE" = "CONTINUER EN MODE DE SUIVI DÉSACTIVÉ";
+"PROCEED WITH AUTOMATIC TRACKING MODE" = "CONTINUER EN MODE DE SUIVI AUTOMATIQUE";
+"PROCEED WITH ON-DEMAND TRACKING MODE" = "CONTINUER EN MODE DE SUIVI À LA DEMANDE";
+"Disabled" = "Désactivé";
+"Automatic" = "Automatique";
+"On-Demand" = "Sur demande";
 
 /* dashboard */
 "Welcome aboard!" = "Bienvenue à bord!";
@@ -275,6 +289,8 @@
 "      Vehicle Info" = "      Infos sur le véhicule";
 "             Vehicle Info" = "             Infos sur le véhicule";
 " Verified Account" = " Compte vérifié";
+"Tracking Mode" = "Mode de suivi";
+"Battery Saver" = "Économiseur de batterie";
 
 
 /* contacts */
@@ -374,8 +390,8 @@
 "             Complete Challenges & Gain Coins" = "             Terminez les défis et gagnez des pièces";
 
 /* Claims */
-"Report a New Claim" = "Signaler une nouvelle réclamation";
-"You have no created claims yet" = "Vous n'avez pas encore créé de revendications";
+"Report a New Claim" = "Signaler une réclamation";
+"You have no created claims yet" = "Aucune réclamation créé\nCe processus est en anglais";
 
 /* wizard */
 "FIRST NAME" = "PRÉNOM";
