@@ -50,6 +50,7 @@
 
 @property (weak, nonatomic) IBOutlet UIView                 *noUsersInLeaderboardView;
 @property (weak, nonatomic) IBOutlet UILabel                *noUsersInLeaderboardLbl;
+@property (weak, nonatomic) IBOutlet UILabel *KeepDriving2lbl;
 
 @end
 
@@ -57,6 +58,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.KeepDriving2lbl.text = localizeString(@"Keep driving!\nLeaderboard appears soon.");
     
     UIGraphicsBeginImageContextWithOptions(self.view.bounds.size, self.view.opaque, 0.0);
     [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];

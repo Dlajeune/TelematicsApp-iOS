@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jZn-pt-DRw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jZn-pt-DRw">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -98,7 +98,7 @@
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="OverallCell" rowHeight="90" id="Gju-Jz-BhC" customClass="OverallCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="90"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="375" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Gju-Jz-BhC" id="obU-NR-kv2">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
@@ -166,7 +166,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AccCell" rowHeight="82" id="tY2-np-RvE" customClass="AccCell">
-                                        <rect key="frame" x="0.0" y="118" width="375" height="82"/>
+                                        <rect key="frame" x="0.0" y="134.5" width="375" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tY2-np-RvE" id="TDe-Rs-Y03">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
@@ -243,7 +243,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DecCell" rowHeight="82" id="Pja-bC-Jqe" customClass="DecCell">
-                                        <rect key="frame" x="0.0" y="200" width="375" height="82"/>
+                                        <rect key="frame" x="0.0" y="216.5" width="375" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pja-bC-Jqe" id="4NG-Ne-Da1">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
@@ -320,7 +320,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SpeedCell" rowHeight="82" id="OqQ-BK-Gtd" customClass="SpeedCell">
-                                        <rect key="frame" x="0.0" y="282" width="375" height="82"/>
+                                        <rect key="frame" x="0.0" y="298.5" width="375" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OqQ-BK-Gtd" id="wTY-GI-vaq">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
@@ -397,7 +397,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PhoneCell" rowHeight="82" id="jhz-5h-Ql7" customClass="PhoneCell">
-                                        <rect key="frame" x="0.0" y="364" width="375" height="82"/>
+                                        <rect key="frame" x="0.0" y="380.5" width="375" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jhz-5h-Ql7" id="ZEr-Ov-9nw">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
@@ -474,7 +474,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CornerCell" rowHeight="82" id="Rbc-Ky-YvH" customClass="CornerCell">
-                                        <rect key="frame" x="0.0" y="446" width="375" height="82"/>
+                                        <rect key="frame" x="0.0" y="462.5" width="375" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rbc-Ky-YvH" id="Ni5-6k-EKL">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
@@ -551,29 +551,29 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TotalTripsCell" rowHeight="82" id="CXh-mC-szY" customClass="TotalTripsCell">
-                                        <rect key="frame" x="0.0" y="528" width="375" height="82"/>
+                                        <rect key="frame" x="0.0" y="544.5" width="375" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CXh-mC-szY" id="evx-gf-hkW">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CXh-mC-szY" id="evx-gf-hkW">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feed_white" translatesAutoresizingMaskIntoConstraints="NO" id="2Ye-da-c1d">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="feed_white" translatesAutoresizingMaskIntoConstraints="NO" id="2Ye-da-c1d">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lead_acceleration" translatesAutoresizingMaskIntoConstraints="NO" id="qS9-nl-amm">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="lead_acceleration" translatesAutoresizingMaskIntoConstraints="NO" id="qS9-nl-amm">
                                                     <rect key="frame" x="24" y="22" width="38" height="38"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="38" id="2ap-S8-faU"/>
                                                         <constraint firstAttribute="width" constant="38" id="qR6-n0-a9W"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Trips" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufs-DP-JeJ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Total Trips" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufs-DP-JeJ">
                                                     <rect key="frame" x="73" y="14" width="213" height="33"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Tu-DA-Z6L" customClass="UICountingLabel">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Tu-DA-Z6L" customClass="UICountingLabel">
                                                     <rect key="frame" x="278" y="13" width="76" height="33"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="76" id="QvJ-62-0Z5"/>
@@ -582,14 +582,14 @@
                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORH-Vc-33I" customClass="ProgressBarView">
+                                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ORH-Vc-33I" customClass="ProgressBarView">
                                                     <rect key="frame" x="74" y="55" width="263" height="6"/>
                                                     <color key="backgroundColor" red="0.3294117647" green="0.78039215689999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="6" id="zTD-2y-FeA"/>
                                                     </constraints>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feed_arrow_single_grey_forward" translatesAutoresizingMaskIntoConstraints="NO" id="umZ-su-R1D">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="feed_arrow_single_grey_forward" translatesAutoresizingMaskIntoConstraints="NO" id="umZ-su-R1D">
                                                     <rect key="frame" x="348" y="35" width="7" height="12"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="7" id="9ZJ-ji-PNt"/>
@@ -628,29 +628,29 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MileageCell" rowHeight="82" id="xa2-2I-Xhz" customClass="MileageCell">
-                                        <rect key="frame" x="0.0" y="610" width="375" height="82"/>
+                                        <rect key="frame" x="0.0" y="626.5" width="375" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xa2-2I-Xhz" id="VJa-IN-OgS">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xa2-2I-Xhz" id="VJa-IN-OgS">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feed_white" translatesAutoresizingMaskIntoConstraints="NO" id="rHC-mW-JWH">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="feed_white" translatesAutoresizingMaskIntoConstraints="NO" id="rHC-mW-JWH">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lead_acceleration" translatesAutoresizingMaskIntoConstraints="NO" id="TK3-SE-UKl">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="lead_acceleration" translatesAutoresizingMaskIntoConstraints="NO" id="TK3-SE-UKl">
                                                     <rect key="frame" x="24" y="22" width="38" height="38"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="38" id="kqg-ax-fzR"/>
                                                         <constraint firstAttribute="height" constant="38" id="nxN-bC-Lso"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mileage" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5FU-Zt-Fqc">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Mileage" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5FU-Zt-Fqc">
                                                     <rect key="frame" x="73" y="14" width="213" height="33"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIM-sX-fqS" customClass="UICountingLabel">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIM-sX-fqS" customClass="UICountingLabel">
                                                     <rect key="frame" x="278" y="13" width="76" height="33"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="76" id="3Tk-QE-e6H"/>
@@ -659,14 +659,14 @@
                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SAz-35-sjE" customClass="ProgressBarView">
+                                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SAz-35-sjE" customClass="ProgressBarView">
                                                     <rect key="frame" x="74" y="55" width="263" height="6"/>
                                                     <color key="backgroundColor" red="0.3294117647" green="0.78039215689999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="6" id="rbu-hV-zNs"/>
                                                     </constraints>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feed_arrow_single_grey_forward" translatesAutoresizingMaskIntoConstraints="NO" id="h59-QX-Tx0">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="feed_arrow_single_grey_forward" translatesAutoresizingMaskIntoConstraints="NO" id="h59-QX-Tx0">
                                                     <rect key="frame" x="348" y="35" width="7" height="12"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="12" id="FRu-x3-QSF"/>
@@ -705,29 +705,29 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TimeCell" rowHeight="82" id="4Hj-wH-FhX" customClass="TimeCell">
-                                        <rect key="frame" x="0.0" y="692" width="375" height="82"/>
+                                        <rect key="frame" x="0.0" y="708.5" width="375" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4Hj-wH-FhX" id="u5K-Fe-KgL">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4Hj-wH-FhX" id="u5K-Fe-KgL">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feed_white" translatesAutoresizingMaskIntoConstraints="NO" id="dXW-Aw-Qih">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="feed_white" translatesAutoresizingMaskIntoConstraints="NO" id="dXW-Aw-Qih">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lead_acceleration" translatesAutoresizingMaskIntoConstraints="NO" id="mtf-Sd-Aep">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="lead_acceleration" translatesAutoresizingMaskIntoConstraints="NO" id="mtf-Sd-Aep">
                                                     <rect key="frame" x="24" y="22" width="38" height="38"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="38" id="8Re-FX-pyc"/>
                                                         <constraint firstAttribute="height" constant="38" id="BHm-Be-r5V"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Driven" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7z-Ei-wDQ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Time Driven" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7z-Ei-wDQ">
                                                     <rect key="frame" x="73" y="14" width="213" height="33"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAr-Ao-I2S" customClass="UICountingLabel">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAr-Ao-I2S" customClass="UICountingLabel">
                                                     <rect key="frame" x="278" y="13" width="76" height="33"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="76" id="Ao2-VK-Slt"/>
@@ -736,14 +736,14 @@
                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="khl-Dk-GwQ" customClass="ProgressBarView">
+                                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="khl-Dk-GwQ" customClass="ProgressBarView">
                                                     <rect key="frame" x="74" y="55" width="263" height="6"/>
                                                     <color key="backgroundColor" red="0.3294117647" green="0.78039215689999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="6" id="haT-fn-33E"/>
                                                     </constraints>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feed_arrow_single_grey_forward" translatesAutoresizingMaskIntoConstraints="NO" id="0DQ-yv-gzB">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="feed_arrow_single_grey_forward" translatesAutoresizingMaskIntoConstraints="NO" id="0DQ-yv-gzB">
                                                     <rect key="frame" x="348" y="35" width="7" height="12"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="7" id="HXd-f8-BwB"/>
@@ -853,6 +853,7 @@ Leaderboard appears soon.</string>
                     <navigationItem key="navigationItem" title="LEADERBOARD" id="QU6-Q7-0jV"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="KeepDriving2lbl" destination="9ET-Km-WG9" id="zii-hj-wT9"/>
                         <outlet property="avatarImg" destination="ehY-V0-ASw" id="hi3-m9-wst"/>
                         <outlet property="backButton" destination="XFS-CY-mzT" id="lDm-aC-e84"/>
                         <outlet property="chatBtn" destination="Km8-WX-MCD" id="J7w-dl-KME"/>
@@ -995,7 +996,7 @@ in the friends leaderboard</string>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GlobalLeadCell" rowHeight="42" id="1VB-Kk-9uj" customClass="GlobalLeadCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="42"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="375" height="42"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1VB-Kk-9uj" id="87T-BQ-Zdh">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="42"/>
@@ -1314,7 +1315,7 @@ Leaderboard appears soon.</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GlobalLeadCell" rowHeight="46" id="A2a-of-L0J" customClass="GlobalLeadCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A2a-of-L0J" id="qoi-bV-F5X">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -1377,7 +1378,7 @@ Leaderboard appears soon.</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PagesCell" rowHeight="46" id="4Fr-vP-hbc" customClass="PagesCell">
-                                        <rect key="frame" x="0.0" y="74" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="90.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4Fr-vP-hbc" id="om1-W6-Mic">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -1532,7 +1533,7 @@ Leaderboard appears soon.</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GlobalLeadCell" rowHeight="46" id="87N-vW-gZQ" customClass="GlobalLeadCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="87N-vW-gZQ" id="VPE-95-f3a">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -1595,7 +1596,7 @@ Leaderboard appears soon.</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PagesCell" rowHeight="46" id="WYt-qc-Nh5" customClass="PagesCell">
-                                        <rect key="frame" x="0.0" y="74" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="90.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WYt-qc-Nh5" id="FZC-Rg-vFu">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -1750,7 +1751,7 @@ Leaderboard appears soon.</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GlobalLeadCell" rowHeight="46" id="BBX-bk-djv" customClass="GlobalLeadCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BBX-bk-djv" id="XhL-L6-poM">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -1813,7 +1814,7 @@ Leaderboard appears soon.</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PagesCell" rowHeight="46" id="Zmz-DT-HAf" customClass="PagesCell">
-                                        <rect key="frame" x="0.0" y="74" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="90.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Zmz-DT-HAf" id="hP2-MG-yuh">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -1968,7 +1969,7 @@ Leaderboard appears soon.</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GlobalLeadCell" rowHeight="46" id="H9m-7A-WlG" customClass="GlobalLeadCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H9m-7A-WlG" id="JrK-Jb-vMi">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -2031,7 +2032,7 @@ Leaderboard appears soon.</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PagesCell" rowHeight="46" id="XXe-ce-YoV" customClass="PagesCell">
-                                        <rect key="frame" x="0.0" y="74" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="90.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XXe-ce-YoV" id="lRw-jV-Hfd">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -2186,7 +2187,7 @@ Leaderboard appears soon.</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GlobalLeadCell" rowHeight="46" id="mNL-01-Usf" customClass="GlobalLeadCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mNL-01-Usf" id="sCh-hQ-c3Q">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -2249,7 +2250,7 @@ Leaderboard appears soon.</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PagesCell" rowHeight="46" id="p6A-uA-nNZ" customClass="PagesCell">
-                                        <rect key="frame" x="0.0" y="74" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="90.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p6A-uA-nNZ" id="8yI-nM-8iI">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -2404,7 +2405,7 @@ Leaderboard appears soon.</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GlobalLeadCell" rowHeight="46" id="6EV-UO-lbT" customClass="GlobalLeadCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6EV-UO-lbT" id="UGj-wn-aeY">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -2467,7 +2468,7 @@ Leaderboard appears soon.</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PagesCell" rowHeight="46" id="ghB-CP-Pwm" customClass="PagesCell">
-                                        <rect key="frame" x="0.0" y="74" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="90.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ghB-CP-Pwm" id="QEW-ai-yMS">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -2622,7 +2623,7 @@ Leaderboard appears soon.</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GlobalLeadCell" rowHeight="46" id="ap3-T3-exL" customClass="GlobalLeadCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ap3-T3-exL" id="eoj-Pk-rCG">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -2685,7 +2686,7 @@ Leaderboard appears soon.</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PagesCell" rowHeight="46" id="cL1-cm-C8B" customClass="PagesCell">
-                                        <rect key="frame" x="0.0" y="74" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="90.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cL1-cm-C8B" id="HI8-Ap-cth">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -2840,7 +2841,7 @@ Leaderboard appears soon.</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GlobalLeadCell" rowHeight="46" id="4Qi-HZ-bFV" customClass="GlobalLeadCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4Qi-HZ-bFV" id="lxF-K3-jvH">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -2903,7 +2904,7 @@ Leaderboard appears soon.</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PagesCell" rowHeight="46" id="tzo-N8-gQ0" customClass="PagesCell">
-                                        <rect key="frame" x="0.0" y="74" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="90.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tzo-N8-gQ0" id="6bJ-Ry-GUZ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -3058,7 +3059,7 @@ Leaderboard appears soon.</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GlobalLeadCell" rowHeight="46" id="d1D-BM-Wbr" customClass="GlobalLeadCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="d1D-BM-Wbr" id="mWu-9e-mX9">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -3121,7 +3122,7 @@ Leaderboard appears soon.</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PagesCell" rowHeight="46" id="MuP-Ow-Gcq" customClass="PagesCell">
-                                        <rect key="frame" x="0.0" y="74" width="375" height="46"/>
+                                        <rect key="frame" x="0.0" y="90.5" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MuP-Ow-Gcq" id="Y9d-qg-Tff">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>

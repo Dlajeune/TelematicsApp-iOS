@@ -92,6 +92,7 @@
 "If you have a Company invitation code, enter it in the field below" = "Si tiene un código de invitación de la empresa, ingréselo en el campo a continuación";
 "Invite code" = "Codigo de invitacion";
 
+
 /* settings logout*/
 "Logout" = "Cerrar sesión";
 "Are you sure you want to quit?" = "¿Estás seguro de que quieres dejar de fumar?";
@@ -117,6 +118,13 @@
 "Support" = "Apoyo";
 "Camera Roll" = "Rollo de la cámara";
 "You are about to earn some " = "Estás a punto de ganar algo ";
+"MAKE" = "MARQUE";
+"MODEL" = "MODÈLE";
+"VEHICLE NICKNAME" = "SURNOM DU VÉHICULE";
+"VEHICLE YEAR" = "ANNÉE DU VÉHICULE";
+"INITIAL MILEAGE" = "KILOMÉTRAGE ACTUEL";
+"PAINTING TYPE" = "TYPE DE PEINTURE";
+"SOLID" = "SOLIDE";
 
 
 /* dashboard */
