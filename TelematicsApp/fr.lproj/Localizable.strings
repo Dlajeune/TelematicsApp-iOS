@@ -318,6 +318,8 @@
 "Earned Coins before applying daily limit" = "Pièces gagnées avant la limite quotidienne";
 "Travelling"= "Voyageant";
 "Safe Driving" = "Sûreté";
+"Eco Driving" = "Conduite Eco";
+"━ ━ ━ Daily limit: 20" = "━ ━ ━ Limite journalière: 20";
 
 "Mileage" = "Kilométrage";
 "━ ━ ━  Daily limit: %@" = "━ ━ ━  Limite journalière: %@";

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="G1R-yB-h5k">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="G1R-yB-h5k">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -707,7 +707,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StreakCell" rowHeight="185" id="pdf-DX-0QB" customClass="StreakCell">
-                                                <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="185"/>
+                                                <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="185"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pdf-DX-0QB" id="aOs-9V-tda">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
@@ -865,6 +865,10 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Rewards" image="rewards_unselected" selectedImage="rewards_selected" id="jLy-Bx-GHm" userLabel="Rewards"/>
                     <connections>
+                        <outlet property="AcqCoinslbl" destination="A03-CC-kb5" id="dGr-yo-Hla"/>
+                        <outlet property="EarnedCoinslbl" destination="cmF-Ks-1L5" id="Cpa-Ea-6ET"/>
+                        <outlet property="MileScorelbl" destination="xIG-BZ-Qnn" id="ZwJ-3D-WQ1"/>
+                        <outlet property="TimeDrivenlbl" destination="aHk-Z6-U9Z" id="wk9-3B-Sqe"/>
                         <outlet property="acquiredRewardsTotalLbl" destination="7vV-vR-PZY" id="tON-83-nB5"/>
                         <outlet property="additional1View" destination="Cl3-Qk-W8s" id="H8u-iH-Dy5"/>
                         <outlet property="additional2View" destination="MKh-Vb-rFS" id="zFO-8G-3eZ"/>
@@ -924,11 +928,11 @@
         <image name="coins_fuel" width="72" height="77"/>
         <image name="coins_leaf" width="64" height="76"/>
         <image name="coins_tyres" width="63" height="77"/>
-        <image name="drivecoinsblack" width="26.666666030883789" height="26.666666030883789"/>
+        <image name="drivecoinsblack" width="374" height="374"/>
         <image name="line_center" width="627" height="30.5"/>
         <image name="line_left" width="627" height="30.5"/>
         <image name="line_right" width="627" height="30.5"/>
-        <image name="money" width="33" height="33"/>
+        <image name="money" width="561" height="561"/>
         <image name="no_avatar" width="75.666664123535156" height="75.666664123535156"/>
         <image name="profile_back_clear" width="494" height="279"/>
         <image name="rewards_selected" width="37" height="37"/>

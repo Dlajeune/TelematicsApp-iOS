@@ -101,6 +101,10 @@
 @property (nonatomic) NSTimer                           *coins_timerFuel;
 @property (nonatomic) NSTimer                           *coins_timerTyres;
 @property (nonatomic) NSTimer                           *coins_timerCost;
+@property (weak, nonatomic) IBOutlet UILabel *AcqCoinslbl;
+@property (weak, nonatomic) IBOutlet UILabel *EarnedCoinslbl;
+@property (weak, nonatomic) IBOutlet UILabel *MileScorelbl;
+@property (weak, nonatomic) IBOutlet UILabel *TimeDrivenlbl;
 
 //STREAKS
 @property (weak, nonatomic) IBOutlet UITableView        *streaksTableView;
@@ -112,6 +116,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.AcqCoinslbl.text = localizeString(@"Acquired Coins");
+    self.EarnedCoinslbl.text = localizeString(@"Earned Coins before applying daily limit");
+    self.name_travellingLbl.text = localizeString(@"Travelling");
+    self.name_safetyLbl.text = localizeString(@"Safe Driving");
+    self.name_ecoScoreLbl.text = localizeString(@"Eco Driving");
+    self.MileScorelbl.text = localizeString(@"Mileage");
+    self.TimeDrivenlbl.text = localizeString(@"Time Driven");
     
     //INITIALIZE USER APP MODEL
     self.appModel = [TelematicsAppModel MR_findFirstByAttribute:@"current_user" withValue:@1];
@@ -246,7 +258,7 @@
     self.navigationController.navigationBar.clipsToBounds = YES;
     
     NSString *dlStr = defaults_object(@"userCoinsDailyLimit") ? defaults_object(@"userCoinsDailyLimit") : @"20";
-    self.dailyLimitLbl.text = [NSString stringWithFormat:@"━ ━ ━  Daily limit: %@", dlStr];
+    self.dailyLimitLbl.text = [NSString stringWithFormat:localizeString(@"━ ━ ━  Daily limit: %@"), dlStr];
     
     self.acquiredRewardsTotalLbl.format = @"%d";
     self.acquiredRewardsTotalLbl.method = UILabelCountingMethodEaseIn;

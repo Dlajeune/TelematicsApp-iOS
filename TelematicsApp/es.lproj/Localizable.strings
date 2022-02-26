@@ -297,6 +297,7 @@
 "Tires" = "Llantas";
 "Cost of ownership" = "Propiedad";
 "CURRENT:" = "ACTUAL:";
+"━ ━ ━ Daily limit: 20" = "━ ━ ━ Límite diario: 20";
 
 /* Leadership */
 "Keep driving!\nLeaderboard appears soon." = "¡Sigue conduciendo!\nLa tabla de clasificación aparece pronto.";

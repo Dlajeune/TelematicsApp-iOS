@@ -93,6 +93,17 @@
 "Support" = "Support";
 "Camera Roll" = "Camera Roll";
 
+/*Rewards*/
+"Acquired Coins" = "Acquired Coins";
+"━ ━ ━  Daily limit: %@" = "━ ━ ━  Daily limit: %@";
+"━ ━ ━ Daily limit: 20" = "━ ━ ━ Daily limit: 20";
+"Earned Coins before applying daily limit" = "Earned Coins before applying daily limit";
+"Travelling" = "Travelling";
+"Safe Driving" = "Safe Driving";
+"Eco Driving" = "Eco Driving";
+"Mileage" = "Mileage";
+"Time Driven" = "Time Driven";
+
 
 /* dashboard */
 "Welcome aboard!" = "Welcome aboard!";
