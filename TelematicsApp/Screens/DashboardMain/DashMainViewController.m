@@ -256,6 +256,16 @@
 @property (weak, nonatomic) IBOutlet UILabel *TireDash2lbl;
 @property (weak, nonatomic) IBOutlet UILabel *BrakesDashlbl;
 @property (weak, nonatomic) IBOutlet UILabel *BrakesDash2lbl;
+@property (weak, nonatomic) IBOutlet UILabel *MyActivitylbl;
+@property (weak, nonatomic) IBOutlet UILabel *MyActivity2lbl;
+@property (weak, nonatomic) IBOutlet UILabel *AvgSpeedlbl;
+@property (weak, nonatomic) IBOutlet UILabel *AvgSpeed2lbl;
+@property (weak, nonatomic) IBOutlet UILabel *MaxSpeedlbl;
+@property (weak, nonatomic) IBOutlet UILabel *MaxSpeed2lbl;
+@property (weak, nonatomic) IBOutlet UILabel *AvgDistancelbl;
+@property (weak, nonatomic) IBOutlet UILabel *AvgDistance2lbl;
+@property (weak, nonatomic) IBOutlet UILabel *HaveYoulbl;
+@property (weak, nonatomic) IBOutlet UILabel *ButIslbl;
 
 @end
 
@@ -2030,7 +2040,7 @@
     self.mapDemo_kmLbl.hidden = YES;
     self.mapDemo_startTimeLbl.hidden = YES;
     self.mapDemo_endTimeLbl.hidden = YES;
-    [self.mapDemo_permissBtn setAttributedTitle:[self createOpenAppSettingsLblImgBefore:@"Check App Permissions \u2B95"] forState:UIControlStateNormal];
+    [self.mapDemo_permissBtn setAttributedTitle:[self createOpenAppSettingsLblImgBefore:localizeString(@"Check App Permissions")] forState:UIControlStateNormal];
     
     _demo_activityTabBarView.indicatorAttributes = @{CMTabIndicatorColor:[UIColor blackColor], CMTabIndicatorViewHeight:@(2.5f), CMTabBoxBackgroundColor:[UIColor blackColor]};
     _demo_activityTabBarView.normalAttributes = @{NSForegroundColorAttributeName:[UIColor blackColor], NSFontAttributeName:[UIFont boldSystemFontOfSize:10.0f]};
@@ -2130,7 +2140,7 @@
 #pragma mark - Visual for Activity Eco Collection
 
 - (void)setupEcoCollectionsForViews {
-    self.activityDates = @[@"WEEK", @"MONTH", @"YEAR"];
+    self.activityDates = @[localizeString(@"WEEK"), localizeString(@"MONTH"), localizeString(@"YEAR")];
     
     [self.collectionViewActivity setContentOffset:CGPointMake(self.collectionViewActivity.bounds.size.width * 0, 0)];
     [self.collectionViewActivity registerNib:[UINib nibWithNibName:NSStringFromClass([UserActivityCell class]) bundle:nil] forCellWithReuseIdentifier:NSStringFromClass([UserActivityCell class])];
@@ -3538,6 +3548,9 @@
     self.descNeedKmLbl.text = localizeString(@"km");
     self.descNeedHoursLbl.text = localizeString(@"hours");
     
+    self.HaveYoulbl.text = localizeString(@"Have you already made a trip");
+    self.ButIslbl.text = localizeString(@"but it is not in the feed");
+    
     self.descTotalTripsLbl.text = localizeString(@"Total Trips");
     self.descMileageLbl.text = localizeString(@"Mileage");
     self.descTimeDrivenLbl.text = localizeString(@"Time Driven");
@@ -3555,6 +3568,15 @@
     self.demo_factor_costOfOwnershipLbl.text = localizeString(@"Cost of Ownership");
     self.tipLbl.text = localizeString(@"tip 1");
     self.demo_tipLbl.text = localizeString(@"tip 1");
+    
+    self.MyActivitylbl.text = localizeString(@"My Activity");
+    self.MyActivity2lbl.text = localizeString(@"My Activity");
+    self.AvgSpeedlbl.text = localizeString(@"Average Speed");
+    self.AvgSpeed2lbl.text = localizeString(@"Average Speed");
+    self.MaxSpeedlbl.text = localizeString(@"Max Speed");
+    self.MaxSpeed2lbl.text = localizeString(@"Max Speed");
+    self.AvgDistancelbl.text = localizeString(@"Average Trip Distance");
+    self.AvgDistance2lbl.text = localizeString(@"Average Trip Distance");
     
     if ([Configurator sharedInstance].needDistanceInMiles || [defaults_object(@"needDistanceInMiles") boolValue]) {
         self.descNeedKmLbl.text = localizeString(@"dash_miles");

@@ -94,6 +94,10 @@ static NSString *rewardCellIdentifier = @"RewardCell";
     
     self.mainTitle.text = localizeString(@"feed_title");
     
+    self.feedDemoNoTripsMainLbl.text = localizeString(@"Have you already made a trip");
+    self.feedDemoNoTripsSecondLbl.text = localizeString(@"but it is not in the feed");
+    //self.feedDemoCheckAppPermissLbl.text = localizeString(@"Check App Permissions");
+    
     UITabBarItem *tabBarItem0 = [self.tabBarController.tabBar.items objectAtIndex:[[Configurator sharedInstance].feedTabBarNumber intValue]];
     [tabBarItem0 setImage:[[UIImage imageNamed:@"feed_unselected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     [tabBarItem0 setSelectedImage:[[UIImage imageNamed:@"feed_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
@@ -272,9 +276,9 @@ static NSString *rewardCellIdentifier = @"RewardCell";
         self.feedDemoDistanceBar.progress = userDst/reqDst;
     }
     
-    self.feedDemoMainLbl.text = [NSString stringWithFormat:@"To Unlock Trips\nDrive %.0f %@", reqDst, kmLocalize];
+    self.feedDemoMainLbl.text = [NSString stringWithFormat:localizeString(@"To Unlock Trips\nDrive %.0f %@"), reqDst, kmLocalize];
     self.feedDemoDistanceLbl.text = [NSString stringWithFormat:@"%@ %@ / %@ %@", rounded, kmLocalize, self.appModel.statDistanceForScoring, kmLocalize];
-    self.feedDemoCheckAppPermissLbl.attributedText = [self createVerifedLabelAttentionImgBefore:localizeString(@" Check App Permissions   \u2B95")];
+    self.feedDemoCheckAppPermissLbl.attributedText = [self createVerifedLabelAttentionImgBefore:localizeString(@"Check App Permissions")];
     
     if (userDst <= reqDst) {
         defaults_set_object(@"demoModeEnabled", @(YES));

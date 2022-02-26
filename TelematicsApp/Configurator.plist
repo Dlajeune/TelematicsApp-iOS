@@ -22,15 +22,15 @@
 		<key>instanceKey</key>
 		<string>5ef8864e-d35d-45ad-aa69-bd78efd4fd04</string>
 		<key>linkPrivacyPolicy</key>
-		<string>https://telematicssdk.com/privacy-policy/</string>
+		<string>https://deltelematics.com</string>
 		<key>linkTermsOfUse</key>
-		<string>https://telematicssdk.com/privacy-policy/</string>
+		<string>https://deltelematics.com</string>
 		<key>linkHowItWorks</key>
-		<string>https://help.telematicssdk.com/en/collections/1827809-mobile-application</string>
+		<string>https://deltelematics.com</string>
 		<key>telematicsSettingsOS12</key>
-		<string>https://help.telematicssdk.com/en/articles/3128577-ios-12-and-earlier-settings-guide</string>
+		<string>https://deltelematics.com</string>
 		<key>telematicsSettingsOS13</key>
-		<string>https://help.telematicssdk.com/en/articles/3740816-ios-13-settings-guide</string>
+		<string>https://deltelematics.com</string>
 		<key>linkSupportEmail</key>
 		<string>support@telematicssdk.com</string>
 		<key>appStoreAppId</key>

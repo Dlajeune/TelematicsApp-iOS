@@ -172,6 +172,9 @@
 "Average Speed" = "Velocidad media";
 "Max Speed" = "Máxima velocidad";
 "Average Trip Distance" = "Dist. de viaje promedio";
+"Have you already made a trip" = "Ya has hecho un viaje";
+"but it is not in the feed" = "pero no esta en el feed";
+"Check App Permissions" = "Comprobar los permisos";
 
 /* feed */
 "TRIPS" = "EXCURSIONES";
@@ -209,6 +212,7 @@
 "CURRENT:" = "ACTUAL:";
 "BEST:" = "MEJOR:";
 "%@ to %@" = "%@ a %@";
+"To Unlock Trips\nDrive %.0f %@" = "Para desbloquear viajes\nConducir %.0f %@";
 
 
 /* profile */

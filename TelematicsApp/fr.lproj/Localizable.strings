@@ -173,6 +173,9 @@
 "Average Speed" = "Vitesse moyenne";
 "Max Speed" = "Vitesse max";
 "Average Trip Distance" = "Dist. moy. du trajet";
+"Have you already made a trip" = "Avez-vous déjà fait un voyage";
+"but it is not in the feed" = "mais ce n'est pas dans le flux";
+"Check App Permissions" = "Vérifier les autorisations";
 
 
 /* feed */
@@ -217,6 +220,7 @@
 "Taxi" = "Taxi";
 "Bicycle" = "Bicyclette";
 "Other" = "Autre";
+"To Unlock Trips\nDrive %.0f %@" = "Pour débloquer les trajets\nConduisé %.0f %@";
 
 
 /* profile */

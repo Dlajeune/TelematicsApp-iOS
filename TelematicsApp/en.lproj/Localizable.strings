@@ -142,6 +142,16 @@
 "Cost of Ownership" = "Cost of Ownership";
 "tip 1" = "Make 10 trips with Eco Driving Score of 90 or higher to improve your driving score!";
 "tip 2" = "Driving style impacts on your expenses on fuel, tires and brakes. Improve your driving style and reduce expenses";
+"My Activity" = "My Activity";
+"WEEK" = "WEEK";
+"MONTH" = "MONTH";
+"YEAR" = "YEAR";
+"Average Speed" = "Average Speed";
+"Max Speed" = "Max Speed";
+"Average Trip Distance" = "Average Trip Distance";
+"Have you already made a trip" = "Have you already made a trip";
+"but it is not in the feed" = "but it is not in the feed";
+"Check App Permissions" = "Check App Permissions";
 
 
 /* feed */
@@ -170,6 +180,7 @@
 "sheet_phone" = "Phone Distraction Score";
 "sheet_speeding" = "Speeding Score";
 "sheet_cornering" = "Cornering Score";
+"To Unlock Trips\nDrive %.0f %@" = "To Unlock Trips\nDrive %.0f %@";
 
 
 /* profile */
