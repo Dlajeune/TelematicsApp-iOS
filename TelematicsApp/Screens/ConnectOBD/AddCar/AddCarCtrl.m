@@ -63,6 +63,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.manufacturerField.text = localizeString(@"MAKE");
+    self.modelField.text = localizeString(@"MODEL");
+    self.carNicknameField.text = localizeString(@"VEHICLE NICKNAME");
+    self.carYearIssueField.text = localizeString(@"VEHICLE YEAR");
+    self.mileageField.text = localizeString(@"INITIAL MILEAGE");
+    self.paintingTypeField.text = localizeString(@"PAINTING TYPE");
+    
     //INITIALIZE USER APP MODEL
     self.appModel = [TelematicsAppModel MR_findFirstByAttribute:@"current_user" withValue:@1];
     

@@ -105,6 +105,11 @@
 @property (weak, nonatomic) IBOutlet UILabel *EarnedCoinslbl;
 @property (weak, nonatomic) IBOutlet UILabel *MileScorelbl;
 @property (weak, nonatomic) IBOutlet UILabel *TimeDrivenlbl;
+@property (weak, nonatomic) IBOutlet UILabel *AccScorelbl;
+@property (weak, nonatomic) IBOutlet UILabel *BrakingScorelbl;
+@property (weak, nonatomic) IBOutlet UILabel *CorneringScorelbl;
+@property (weak, nonatomic) IBOutlet UILabel *PhoneScorelbl;
+@property (weak, nonatomic) IBOutlet UILabel *SpeedingScorelbl;
 
 //STREAKS
 @property (weak, nonatomic) IBOutlet UITableView        *streaksTableView;
@@ -124,6 +129,12 @@
     self.name_ecoScoreLbl.text = localizeString(@"Eco Driving");
     self.MileScorelbl.text = localizeString(@"Mileage");
     self.TimeDrivenlbl.text = localizeString(@"Time Driven");
+    self.AccScorelbl.text = localizeString(@"Accelerations");
+    self.BrakingScorelbl.text = localizeString(@"Brakes");
+    self.CorneringScorelbl.text = localizeString(@"Cornerings");
+    self.PhoneScorelbl.text = localizeString(@"Phone Usage");
+    self.SpeedingScorelbl.text = localizeString(@"Speeding");
+    
     
     //INITIALIZE USER APP MODEL
     self.appModel = [TelematicsAppModel MR_findFirstByAttribute:@"current_user" withValue:@1];
@@ -838,7 +849,7 @@
     if (indexPath.row == 0) {
         
         //STREAK TITLE ACCELERATION
-        streakCell.mainTitleLbl.text = @"Trips Without Harsh Acceleration";
+        streakCell.mainTitleLbl.text = localizeString(@"Trips Without Harsh Acceleration");
         streakCell.mainStreakImg.image = [UIImage imageNamed:@"streak_up"];
         
         //FIRST SECTION
@@ -943,7 +954,7 @@
     } else if (indexPath.row == 1) {
         
         //STREAK TITLE BRAKING
-        streakCell.mainTitleLbl.text = @"Trips Without Hard Braking";
+        streakCell.mainTitleLbl.text = localizeString(@"Trips Without Hard Braking");
         streakCell.mainStreakImg.image = [UIImage imageNamed:@"lead_deceleration"];
         
         //FIRST SECTION
@@ -1048,7 +1059,7 @@
     } else if (indexPath.row == 2) {
         
         //STREAK TITLE CORNERING
-        streakCell.mainTitleLbl.text = @"Trips Without Hard Cornering";
+        streakCell.mainTitleLbl.text = localizeString(@"Trips Without Hard Cornering");
         streakCell.mainStreakImg.image = [UIImage imageNamed:@"lead_cornering"];
         
         //FIRST SECTION
@@ -1153,7 +1164,7 @@
     } else if (indexPath.row == 3) {
         
         //STREAK TITLE SPEEDING
-        streakCell.mainTitleLbl.text = @"Trips Without Speeding";
+        streakCell.mainTitleLbl.text = localizeString(@"Trips Without Speeding");
         streakCell.mainStreakImg.image = [UIImage imageNamed:@"lead_acceleration"];
         
         //FIRST SECTION
@@ -1258,7 +1269,7 @@
     } else if (indexPath.row == 4) {
         
         //STREAK TITLE DISTRACTION
-        streakCell.mainTitleLbl.text = @"Trips Without Phone Usage";
+        streakCell.mainTitleLbl.text = localizeString(@"Trips Without Phone Usage");
         streakCell.mainStreakImg.image = [UIImage imageNamed:@"lead_phone"];
         
         //FIRST SECTION

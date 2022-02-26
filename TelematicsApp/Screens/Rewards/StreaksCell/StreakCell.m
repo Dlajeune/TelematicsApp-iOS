@@ -18,6 +18,11 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     
+    {
+        self.currentNameLbl.text = localizeString(@"CURRENT:");
+        self.bestNameLbl.text = localizeString(@"BEST:");
+    }
+    
     if (IS_IPHONE_5 || IS_IPHONE_4) {
         self.mainTitleLbl.font = [Font bold14];
         

@@ -92,6 +92,13 @@
 "Search" = "Search";
 "Support" = "Support";
 "Camera Roll" = "Camera Roll";
+"MAKE" = "MAKE";
+"MODEL" = "MODEL";
+"VEHICLE NICKNAME" = "VEHICLE NICKNAME";
+"VEHICLE YEAR" = "VEHICLE YEAR";
+"INITIAL MILEAGE" = "CURRENT MILEAGE";
+"PAINTING TYPE" = "TYPE OF PAINT";
+"SOLID" = "SOLID";
 
 /*Rewards*/
 "Acquired Coins" = "Acquired Coins";
@@ -103,6 +110,18 @@
 "Eco Driving" = "Eco Driving";
 "Mileage" = "Mileage";
 "Time Driven" = "Time Driven";
+"Accelerations" = "Accelerations";
+"Brakes" = "Brakes";
+"Cornerings" = "Cornerings";
+"Phone Usage" = "Phone Usage";
+"Speeding" = "Speeding";
+"Trips Without Harsh Acceleration" = "Trips Without Harsh Acceleration";
+"Trips Without Hard Braking" = "Trips Without Hard Braking";
+"Trips Without Hard Cornering" = "Trips Without Hard Cornering";
+"Trips Without Speeding" = "Trips Without Speeding";
+"Trips Without Phone Usage" = "Trips Without Phone Usage";
+"CURRENT:" = "CURRENT:";
+"BEST:" = "BEST:";
 
 
 /* dashboard */

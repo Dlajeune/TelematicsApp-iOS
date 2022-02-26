@@ -117,7 +117,13 @@
 "Search" = "Chercher";
 "Support" = "Soutien";
 "Camera Roll" = "Galerie de photos";
-
+"MAKE" = "MARQUE";
+"MODEL" = "MODÈLE";
+"VEHICLE NICKNAME" = "SURNOM DU VÉHICULE";
+"VEHICLE YEAR" = "ANNÉE DU VÉHICULE";
+"INITIAL MILEAGE" = "KILOMÉTRAGE ACTUEL";
+"PAINTING TYPE" = "TYPE DE PEINTURE";
+"SOLID" = "SOLIDE";
 
 /* dashboard */
 "Welcome aboard!" = "Bienvenue à bord!";
@@ -391,7 +397,7 @@
 "REGISTRATION LOCATION" = "LIEU D'INSCRIPTION";
 "CATEGORY" = "CATÉGORIE";
 "LICENSE PLATE" = "PLAQUE D'IMMATRICULATION";
-"VIN NUMBER" = "NUMÉRO VIN";
+"VIN NUMBER" = "NUMÉRO NIV";
 "MAKE & MODEL" = "MARQUE ET MODÈLE";
 "CAR TYPE" = "TYPE DE VOITURE";
 "YEAR OF ISSUE" = "ANNÉE DE FABRICATION";

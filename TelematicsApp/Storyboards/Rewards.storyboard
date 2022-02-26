@@ -729,7 +729,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CURRENT:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89e-pK-94j">
-                                                            <rect key="frame" x="30" y="66" width="73" height="21"/>
+                                                            <rect key="frame" x="30" y="66" width="129" height="21"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -743,7 +743,7 @@
                                                             <color key="highlightedColor" systemColor="systemGrayColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BEST:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8F-ba-O3g">
-                                                            <rect key="frame" x="209" y="66" width="40" height="21"/>
+                                                            <rect key="frame" x="209" y="66" width="130" height="21"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                                             <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -865,9 +865,14 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Rewards" image="rewards_unselected" selectedImage="rewards_selected" id="jLy-Bx-GHm" userLabel="Rewards"/>
                     <connections>
+                        <outlet property="AccScorelbl" destination="f0K-D2-udk" id="Vn2-rL-iyX"/>
                         <outlet property="AcqCoinslbl" destination="A03-CC-kb5" id="dGr-yo-Hla"/>
+                        <outlet property="BrakingScorelbl" destination="fSq-Hx-dSE" id="ei6-c3-Qgo"/>
+                        <outlet property="CorneringScorelbl" destination="oz6-nw-Jn6" id="TKb-KX-XOJ"/>
                         <outlet property="EarnedCoinslbl" destination="cmF-Ks-1L5" id="Cpa-Ea-6ET"/>
                         <outlet property="MileScorelbl" destination="xIG-BZ-Qnn" id="ZwJ-3D-WQ1"/>
+                        <outlet property="PhoneScorelbl" destination="eqP-qf-fXm" id="JfX-A5-Qyq"/>
+                        <outlet property="SpeedingScorelbl" destination="1Zl-Ua-ydx" id="2R6-IO-So5"/>
                         <outlet property="TimeDrivenlbl" destination="aHk-Z6-U9Z" id="wk9-3B-Sqe"/>
                         <outlet property="acquiredRewardsTotalLbl" destination="7vV-vR-PZY" id="tON-83-nB5"/>
                         <outlet property="additional1View" destination="Cl3-Qk-W8s" id="H8u-iH-Dy5"/>
