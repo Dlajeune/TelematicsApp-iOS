@@ -47,6 +47,15 @@
 "Enter the password from sms" = "Enter the password from sms";
 "Resend password after %d sec" = "Resend password after %d sec";
 "An error occurred while changing the password. Try again please" = "An error occurred while changing the password. Try again please";
+"Passenger" = "Passenger";
+"Bus" = "Bus";
+"Motorcycle" = "Motorcycle";
+"Train" = "Train";
+"Taxi" = "Taxi";
+"Bicycle" = "Bicycle";
+"Other" = "Other";
+"Trip Role" = "Trip Role";
+"Please select your trip role" = "Please select your trip role";
 
 
 /* settings menu */

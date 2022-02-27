@@ -861,31 +861,31 @@ static NSString *rewardCellIdentifier = @"RewardCell";
         
         if ([trip.trackOriginCode isEqual:@"OriginalDriver"]) {
             [cell.driverBtn setBackgroundImage:[UIImage imageNamed:@"driver_green"] forState:UIControlStateNormal];
-            cell.userTripAdditionalLbl.text = @"Driver";
+            cell.userTripAdditionalLbl.text = localizeString(@"Driver");
         } else if ([trip.trackOriginCode isEqual:@"Passenger"] || [trip.trackOriginCode isEqual:@"Passanger"]) {
             [cell.driverBtn setBackgroundImage:[UIImage imageNamed:@"passenger_green"] forState:UIControlStateNormal];
-            cell.userTripAdditionalLbl.text = @"Passenger";
+            cell.userTripAdditionalLbl.text = localizeString(@"Passenger");
         } else if ([trip.trackOriginCode isEqual:@"Bus"]) {
             [cell.driverBtn setBackgroundImage:[UIImage imageNamed:@"bus_green"] forState:UIControlStateNormal];
-            cell.userTripAdditionalLbl.text = @"Bus";
+            cell.userTripAdditionalLbl.text = localizeString(@"Bus");
         } else if ([trip.trackOriginCode isEqual:@"Motorcycle"]) {
             [cell.driverBtn setBackgroundImage:[UIImage imageNamed:@"motorcycle_green"] forState:UIControlStateNormal];
-            cell.userTripAdditionalLbl.text = @"Motorcycle";
+            cell.userTripAdditionalLbl.text = localizeString(@"Motorcycle");
         } else if ([trip.trackOriginCode isEqual:@"Train"]) {
             [cell.driverBtn setBackgroundImage:[UIImage imageNamed:@"train_green"] forState:UIControlStateNormal];
-            cell.userTripAdditionalLbl.text = @"Train";
+            cell.userTripAdditionalLbl.text = localizeString(@"Train");
         } else if ([trip.trackOriginCode isEqual:@"Taxi"]) {
             [cell.driverBtn setBackgroundImage:[UIImage imageNamed:@"taxi_green"] forState:UIControlStateNormal];
-            cell.userTripAdditionalLbl.text = @"Taxi";
+            cell.userTripAdditionalLbl.text = localizeString(@"Taxi");
         } else if ([trip.trackOriginCode isEqual:@"Bicycle"]) {
             [cell.driverBtn setBackgroundImage:[UIImage imageNamed:@"bicycle_green"] forState:UIControlStateNormal];
-            cell.userTripAdditionalLbl.text = @"Bicycle";
+            cell.userTripAdditionalLbl.text = localizeString(@"Bicycle");
         } else if ([trip.trackOriginCode isEqual:@"Other"]) {
             [cell.driverBtn setBackgroundImage:[UIImage imageNamed:@"other_green"] forState:UIControlStateNormal];
-            cell.userTripAdditionalLbl.text = @"Other";
+            cell.userTripAdditionalLbl.text = localizeString(@"Other");
         } else {
             [cell.driverBtn setBackgroundImage:[UIImage imageNamed:@"driver_green"] forState:UIControlStateNormal];
-            cell.userTripAdditionalLbl.text = @"Driver";
+            cell.userTripAdditionalLbl.text = localizeString(@"Driver");
         }
 
         [cell.driverBtn addTarget:self action:@selector(changeDriverOriginAction:) forControlEvents:UIControlEventTouchUpInside];

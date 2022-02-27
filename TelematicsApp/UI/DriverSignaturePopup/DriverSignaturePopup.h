@@ -31,5 +31,9 @@
 
 @property (strong, nonatomic) IBOutlet GeneralButton    *cancelBtn;
 @property (strong, nonatomic) IBOutlet GeneralButton    *submitBtn;
+//@property (weak, nonatomic) IBOutlet UILabel *TripRolTitleLbl;
+//@property (weak, nonatomic) IBOutlet UILabel *TripRolSubLbl;
+@property (weak, nonatomic) IBOutlet UILabel *TripTitleLbl;
+@property (weak, nonatomic) IBOutlet UILabel *TripSubLbl;
 
 @end

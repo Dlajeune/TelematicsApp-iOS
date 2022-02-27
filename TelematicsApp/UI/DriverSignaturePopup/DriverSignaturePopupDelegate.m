@@ -120,6 +120,19 @@
     self.customView.layer.cornerRadius = self.cornerRadius;
     [self setBlurredBackground];
     [self setupLabels];
+    
+    self.customView.event1Lbl.text = localizeString(@"Driver");
+    self.customView.event2Lbl.text = localizeString(@"Passenger");
+    self.customView.event3Lbl.text = localizeString(@"Bus");
+    self.customView.event4Lbl.text = localizeString(@"Motorcycle");
+    self.customView.event5Lbl.text = localizeString(@"Train");
+    self.customView.event6Lbl.text = localizeString(@"Taxi");
+    self.customView.event7Lbl.text = localizeString(@"Bicycle");
+    self.customView.event8Lbl.text = localizeString(@"Other");
+    self.customView.TripTitleLbl.text = localizeString(@"Trip Role");
+    self.customView.TripSubLbl.text = localizeString(@"Please select your trip role");
+    
+
 }
 
 

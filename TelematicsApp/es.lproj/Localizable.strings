@@ -191,9 +191,13 @@
 "Brakes" = "Frenos";
 "Cost of ownership" = "Coste de propiedad";
 "Week" = "Semana";
+"WEEK" = "SEMENA";
 "Month" = "Mes";
 "Year" = "Año";
+"MONTH" = "MES";
+"YEAR" = "AÑO";
 "MY ACTIVITY" = "MI ACTIVIDAD";
+"My Activity" = "Mi Actividad";
 "Average Speed" = "Velocidad media";
 "Max Speed" = "Máxima velocidad";
 "Average Trip Distance" = "Dist. de viaje promedio";
@@ -246,6 +250,8 @@
 "BEST:" = "MEJOR:";
 "%@ to %@" = "%@ a %@";
 "To Unlock Trips\nDrive %.0f %@" = "Para desbloquear viajes\nConducir %.0f %@";
+"Trip Role" = "Rol de viaje";
+"Please select your trip role" = "Seleccione su función de viaje";
 
 
 /* profile */

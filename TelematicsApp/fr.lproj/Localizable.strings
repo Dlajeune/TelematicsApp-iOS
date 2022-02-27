@@ -249,6 +249,8 @@
 "Bicycle" = "Bicyclette";
 "Other" = "Autre";
 "To Unlock Trips\nDrive %.0f %@" = "Pour débloquer les trajets\nConduisé %.0f %@";
+"Trip Role" = "Rôle du voyage";
+"Please select your trip role" = "Veuillez sélectionner votre rôle de voyage";
 
 
 /* profile */
