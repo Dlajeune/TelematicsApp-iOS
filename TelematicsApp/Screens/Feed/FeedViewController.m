@@ -898,7 +898,7 @@ static NSString *rewardCellIdentifier = @"RewardCell";
         
         cell.tagsSwitcher.labelTextColorOutsideSlider = [UIColor darkGrayColor];
         cell.tagsSwitcher.labelTextColorInsideSlider = [Color officialMainAppColor];
-        cell.tagsSwitcher.backgroundColor = [Color OfficialDELLightBlueColor                                                                                                     ];
+        cell.tagsSwitcher.backgroundColor = [Color OfficialDELLightBlueColor];
         cell.tagsSwitcher.sliderColor = [Color officialWhiteColor];
         cell.tagsSwitcher.sliderOffset = 1.0;
         cell.tagsSwitcher.tag = indexPath.row;
