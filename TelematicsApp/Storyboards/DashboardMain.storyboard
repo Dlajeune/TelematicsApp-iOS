@@ -2304,11 +2304,13 @@
                         <outlet property="BrakesDashlbl" destination="2sh-TN-e8Z" id="fT6-bM-gh2"/>
                         <outlet property="ButIslbl" destination="CEh-Gr-5pm" id="0fy-gZ-XM0"/>
                         <outlet property="DriveAsYoulbl" destination="WB7-r0-obV" id="Jeo-xg-jsX"/>
+                        <outlet property="DrivingStreaklbl" destination="bmR-zk-0Gl" id="3hw-OW-R9c"/>
                         <outlet property="EcoScoring2lbl" destination="upT-QS-aO3" id="yuf-jM-c84"/>
                         <outlet property="EcoScoringlbl" destination="kjn-HW-xM0" id="fB9-pC-XOL"/>
                         <outlet property="FuelDash2lbl" destination="bqr-qw-Pw5" id="hGu-eu-iti"/>
                         <outlet property="FuelDashlbl" destination="4kZ-RH-4dO" id="wMD-G0-Rz2"/>
                         <outlet property="HaveYoulbl" destination="ynt-2b-3ll" id="nDo-o2-OU5"/>
+                        <outlet property="LeanrMorelbl" destination="m16-9d-gWL" id="HIF-VN-pzm"/>
                         <outlet property="MaxSpeed2lbl" destination="YQr-7x-anL" id="aJA-R8-oGp"/>
                         <outlet property="MaxSpeedlbl" destination="NQd-HJ-mWZ" id="5zU-Se-4Zx"/>
                         <outlet property="MyActivity2lbl" destination="vmM-Hj-fA3" id="REa-PU-1WD"/>

@@ -196,6 +196,14 @@
 "Have you already made a trip" = "Avez-vous déjà fait un voyage";
 "but it is not in the feed" = "mais ce n'est pas dans le flux";
 "Check App Permissions" = "Vérifier les autorisations";
+"DRIVING STREAKS" = "SÉRIES DE CONDUITE";
+"No Speeding" = "Vitesse";
+"No Phone Usage" = "Téléphone";
+"%@ trips" = "%@ voyages";
+"None" = "Aucun";
+"Personal" = "Personnel";
+"Business" = "Entreprise";
+"Learn more>>" = "En savoir plus>>";
 
 
 /* feed */

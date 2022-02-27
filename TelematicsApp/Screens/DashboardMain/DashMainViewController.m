@@ -266,6 +266,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *AvgDistance2lbl;
 @property (weak, nonatomic) IBOutlet UILabel *HaveYoulbl;
 @property (weak, nonatomic) IBOutlet UILabel *ButIslbl;
+@property (weak, nonatomic) IBOutlet UILabel *DrivingStreaklbl;
+@property (weak, nonatomic) IBOutlet UIButton *LeanrMorelbl;
 
 @end
 
@@ -895,8 +897,8 @@
         NSLog(@"%s %@ %@", __func__, response, error);
         if (!error && [response isSuccesful]) {
             self.streaksDetails = ((StreaksResponse *)response).Result;
-            self.streaks_speedingValueLbl.text = [NSString stringWithFormat:@"%@ trips", self.streaksDetails.StreakOverSpeedCurrentStreak.stringValue];
-            self.streaks_phoneValueLbl.text = [NSString stringWithFormat:@"%@ trips", self.streaksDetails.StreakPhoneUsageCurrentStreak.stringValue];
+            self.streaks_speedingValueLbl.text = [NSString stringWithFormat:localizeString(@"%@ trips"), self.streaksDetails.StreakOverSpeedCurrentStreak.stringValue];
+            self.streaks_phoneValueLbl.text = [NSString stringWithFormat:localizeString(@"%@ trips"), self.streaksDetails.StreakPhoneUsageCurrentStreak.stringValue];
             NSLog(@"Streaks Ok");
         } else {
             NSLog(@"%s %@ %@", __func__, response, error);
@@ -3577,6 +3579,11 @@
     self.MaxSpeed2lbl.text = localizeString(@"Max Speed");
     self.AvgDistancelbl.text = localizeString(@"Average Trip Distance");
     self.AvgDistance2lbl.text = localizeString(@"Average Trip Distance");
+    self.DrivingStreaklbl.text = localizeString(@"DRIVING STREAKS");
+    self.streaks_speedingLbl.text = localizeString(@"No Speeding");
+    self.streaks_phoneLbl.text = localizeString(@"No Phone Usage");
+    
+    [_LeanrMorelbl setTitle:localizeString(@"Learn more>>") forState:UIControlStateNormal];
     
     if ([Configurator sharedInstance].needDistanceInMiles || [defaults_object(@"needDistanceInMiles") boolValue]) {
         self.descNeedKmLbl.text = localizeString(@"dash_miles");

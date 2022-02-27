@@ -7,7 +7,7 @@
 */
 
 /* main */
-"TelematicsApp" = "AID Fleet";
+"TelematicsApp" = "DELimit";
 "dashboard_title" = "Panel";
 "feed_title" = "Datos";
 "rewards_title" = "Recompensa";
@@ -200,6 +200,14 @@
 "Have you already made a trip" = "Ya has hecho un viaje";
 "but it is not in the feed" = "pero no esta en el feed";
 "Check App Permissions" = "Comprobar los permisos";
+"DRIVING STREAKS" = "RACHAS DE CONDUCCIÓN";
+"No Speeding" = "Velocidad";
+"No Phone Usage" = "Teléfono";
+"%@ trips" = "%@ viajes";
+"None" = "Ninguno";
+"Personal" = "Personal";
+"Business" = "Negocio";
+"Learn more>>" = "Más información>>";
 
 /* feed */
 "TRIPS" = "EXCURSIONES";

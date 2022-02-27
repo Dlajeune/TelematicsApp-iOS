@@ -7,7 +7,7 @@
 */
 
 /* main */
-"TelematicsApp" = "TelematicsApp";
+"TelematicsApp" = "DELimit";
 "dashboard_title" = "Dashboard";
 "feed_title" = "Feed";
 "rewards_title" = "My Rewards";
@@ -203,6 +203,14 @@
 "Have you already made a trip" = "Have you already made a trip";
 "but it is not in the feed" = "but it is not in the feed";
 "Check App Permissions" = "Check App Permissions";
+"DRIVING STREAKS" = "DRIVING STREAKS";
+"No Speeding" = "No Speeding";
+"No Phone Usage" = "No Phone Usage";
+"%@ trips" = "%@ trips";
+"None" = "None";
+"Personal" = "Personal";
+"Business" = "Business";
+"Learn more>>" = "Learn more>>";
 
 
 /* feed */
