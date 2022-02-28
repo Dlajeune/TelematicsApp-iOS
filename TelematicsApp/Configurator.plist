@@ -18,9 +18,9 @@
 		<key>claimsServiceURL</key>
 		<string>https://insp.telematicssdk.com/api/v1</string>
 		<key>instanceId</key>
-		<string>1db397c5-e00f-47f3-92de-9651fda7d2ee</string>
+		<string>&lt;INSTANCE_ID&gt;</string>
 		<key>instanceKey</key>
-		<string>5ef8864e-d35d-45ad-aa69-bd78efd4fd04</string>
+		<string>&lt;INSTANCE_KEY&gt;</string>
 		<key>linkPrivacyPolicy</key>
 		<string>https://deltelematics.com</string>
 		<key>linkTermsOfUse</key>
@@ -36,13 +36,13 @@
 		<key>appStoreAppId</key>
 		<string>&lt;YOUR_APPSTORE_APP_ID&gt;</string>
 		<key>mapsAppIdKey</key>
-		<string>xC4uTCEEAfQpGNnlfKjY</string>
+		<string>&lt;Map_id_key&gt;</string>
 		<key>mapsAppCode</key>
-		<string>TQYqQ6U2FuWWshsAMuf3FQ</string>
+		<string>&lt;map_CODE&gt;</string>
 		<key>mapsLicenseKey</key>
-		<string>i8mrvbxrIYmC+rWLe2T0P8C0Zb8j7ybGG6mK1VAyyEg8jr8gexSDAJ2fdDiHMA2dmhEIDynFOR/iUrU9+LdQy8FzFMGYv6zPwtqQbZ98NGtc4f6tG1T8jS6VrN+32PsZqcyTXcP/cAQ2j3FR+kw6kp0i+XmXGEwXge5GwU1iBsn3PNjaX4mNEckp+V8JguS6yOFbHLDmLDHbcZmS33SPoPV/EnxL9QG8vf4GfFt3S2YS7gdfoQxgwnX/DU/WyaqIyxQGzAoBxi7NcTysc4/p494mIHwPSn1q/3jI4oGS4xXza7N/gnen0x46ChKqmMy9ZTgh/b6qW4Fzcx4ebrYVhfwK28DSxqTMhGCPgs3I6XE4q7keYiKz1/n5Io3xOTj60qPt5mwQOaBxkrCQYb5IeSpF3ZtY3O17xWZijVF94RJ+RCrBo00nyzt68KjqHVZ3Yu3KpObPOCy9he1HATzHs3rsf/RxP3drRjnNg7uZBwptUBkd2JHRajKvTYBC14dHpmS0M0B/s17XuoayBpxUytjzKSnRhfvzKfT+nSkK4Va+EulxGzl8ZNeCJf5x41+9JL1v+4j8oy71oLonnZ6Wu9B75ukJGVrG+TGcffURj992bWPOPSN4YsK2NVL/RNQHvjuhQMke+wh/fWqnSBiNoOX0iD6m+CVGIXh2B2nYBdE=</string>
+		<string>&lt;MAP_LICENSE_KEY&gt;</string>
 		<key>mapsRestApiKey</key>
-		<string>s5DYyuszcAOXb7PXFstwdXdg0YqxRgVgamMCkA3Oo2c</string>
+		<string>&lt;MAP_API_KEY&gt;</string>
 		<key>googleApiKey</key>
 		<string>&lt;INSERT_YOUR_KEY_FOR_GOOGLE_SERVICES&gt;</string>
 		<key>mainLogoColor</key>
