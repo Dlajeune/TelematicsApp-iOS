@@ -91,6 +91,8 @@
 "Join a Company" = "Unirse a una empresa";
 "If you have a Company invitation code, enter it in the field below" = "Si tiene un código de invitación de la empresa, ingréselo en el campo a continuación";
 "Invite code" = "Codigo de invitacion";
+"Your trips may be not recorded. Please, follow to App Settings=>Location=>Precise Location" = "Es posible que sus viajes no se registren. Por favor, navega a Configuración=>aplicación=>Ubicación=>Ubicación precisa";
+"Your trips may be not recorded. Please, follow to Settings=>Battery=>Low Power" = "Es posible que sus viajes no se registren. Por favor, navega a Configuración=>Batería=>Ahorrar batería";
 
 
 /* settings logout*/
