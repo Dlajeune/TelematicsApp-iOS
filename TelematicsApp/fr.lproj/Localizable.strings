@@ -91,6 +91,8 @@
 "Check App Permissions" = "Vérifier les autorisations";
 "Do not see your trips?" = "Vous ne voyez pas vos trajets ?";
 "Make your first trip" = "Faites votre 1er voyage";
+"Your trips may be not recorded. Please, follow to App Settings=>Location=>Precise Location" = "Vos trajets peuvent ne pas être enregistrés. S'il vous plaît, accédez à Réglages=>L'application=>Emplacement=>Position exacte";
+"Your trips may be not recorded. Please, follow to Settings=>Battery=>Low Power" = "Vos trajets peuvent ne pas être enregistrés. S'il vous plaît, accédez à Réglages=>Batterie=>Mode économie d'énergie";
 
 
 /* settings logout*/
