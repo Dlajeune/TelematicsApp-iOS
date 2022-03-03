@@ -75,6 +75,8 @@
 "menuitem_terms" = "Terms of Use";
 "menuitem_rate" = "Rate our app";
 "menuitem_help" = "Help";
+"Your trips may be not recorded. Please, follow to App Settings=>Location=>Precise Location" = "Your trips may be not recorded. Please, navigate to Settings=>Location=>Precise Location";
+"Your trips may be not recorded. Please, follow to Settings=>Battery=>Low Power" = "Your trips may not be recorded. Please, navigate to Settings=>Battery=>Low Power";
 
 
 /* settings logout*/
