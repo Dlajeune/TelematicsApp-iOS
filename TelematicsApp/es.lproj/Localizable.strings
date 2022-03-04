@@ -93,7 +93,8 @@
 "Invite code" = "Codigo de invitacion";
 "Your trips may be not recorded. Please, follow to App Settings=>Location=>Precise Location" = "Es posible que sus viajes no se registren. Por favor, navega a Configuración=>aplicación=>Ubicación=>Ubicación precisa";
 "Your trips may be not recorded. Please, follow to Settings=>Battery=>Low Power" = "Es posible que sus viajes no se registren. Por favor, navega a Configuración=>Batería=>Ahorrar batería";
-
+"Precise Location is off" = "Ubicación precisa es desactivar";
+"Low Power Mode" = "Ahorrar batería";
 
 /* settings logout*/
 "Logout" = "Cerrar sesión";
